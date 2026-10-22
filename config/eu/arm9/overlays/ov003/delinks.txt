@@ -3,3 +3,79 @@
     .ctor       start:0x0215090c end:0x0215090c kind:rodata align:4
     .data       start:0x02150920 end:0x02150c40 kind:data align:32
     .bss        start:0x02150c40 end:0x02150c40 kind:bss align:32
+
+src/data/ov003_data_0215093c.c:
+    complete
+    .data       start:0x0215093c end:0x02150948
+
+src/data/ov003_data_02150948.c:
+    complete
+    .data       start:0x02150948 end:0x02150954
+
+src/data/ov003_data_021509f0.c:
+    complete
+    .data       start:0x021509f0 end:0x021509f8
+
+src/data/ov003_data_02150a00.c:
+    complete
+    .data       start:0x02150a00 end:0x02150a0c
+
+src/data/ov003_data_02150a2c.c:
+    complete
+    .data       start:0x02150a2c end:0x02150a3c
+
+src/data/ov003_data_02150a6c.c:
+    complete
+    .data       start:0x02150a6c end:0x02150a78
+
+src/data/ov003_data_02150aa8.c:
+    complete
+    .data       start:0x02150aa8 end:0x02150ab8
+
+src/data/ov003_data_02150ad8.c:
+    complete
+    .data       start:0x02150ad8 end:0x02150ae4
+
+src/data/ov003_data_02150b10.c:
+    complete
+    .data       start:0x02150b10 end:0x02150b20
+
+src/data/ov003_data_02150b2c.c:
+    complete
+    .data       start:0x02150b2c end:0x02150b38
+
+src/data/ov003_data_02150b54.c:
+    complete
+    .data       start:0x02150b54 end:0x02150b64
+
+src/data/ov003_data_02150b64.c:
+    complete
+    .data       start:0x02150b64 end:0x02150b70
+
+src/data/ov003_data_02150b9c.c:
+    complete
+    .data       start:0x02150b9c end:0x02150bac
+
+src/data/ov003_data_02150bac.c:
+    complete
+    .data       start:0x02150bac end:0x02150bb4
+
+src/data/ov003_data_02150bb4.c:
+    complete
+    .data       start:0x02150bb4 end:0x02150bbc
+
+src/data/ov003_data_02150bbc.c:
+    complete
+    .data       start:0x02150bbc end:0x02150bc8
+
+src/data/ov003_data_02150bf4.c:
+    complete
+    .data       start:0x02150bf4 end:0x02150c04
+
+src/data/ov003_data_02150c04.c:
+    complete
+    .data       start:0x02150c04 end:0x02150c1c
+
+src/data/ov003_data_02150c1c.c:
+    complete
+    .data       start:0x02150c1c end:0x02150c40

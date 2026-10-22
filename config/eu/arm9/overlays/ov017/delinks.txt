@@ -3,3 +3,11 @@
     .ctor       start:0x0214c5fc end:0x0214c5fc kind:rodata align:4
     .data       start:0x0214c600 end:0x0214c6c0 kind:data align:32
     .bss        start:0x0214c6c0 end:0x0214c6c0 kind:bss align:32
+
+src/data/ov017_data_0214c634.c:
+    complete
+    .data       start:0x0214c634 end:0x0214c640
+
+src/data/ov017_data_0214c658.c:
+    complete
+    .data       start:0x0214c658 end:0x0214c66c
