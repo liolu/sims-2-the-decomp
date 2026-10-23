@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_ov002_0214c134[2] = {0x1E121E11, 0x00001E13};

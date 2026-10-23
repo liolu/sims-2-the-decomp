@@ -28,3 +28,87 @@ src/data/ov008_data_0214b1ec.c:
 src/data/ov008_data_0214b1f0.c:
     complete
     .data       start:0x0214b1f0 end:0x0214b1f4
+
+src/data/ov008_bss_0214b200.c:
+    complete
+    .bss        start:0x0214b200 end:0x0214b204
+
+src/data/ov008_bss_0214b204.c:
+    complete
+    .bss        start:0x0214b204 end:0x0214b208
+
+src/data/ov008_bss_0214b208.c:
+    complete
+    .bss        start:0x0214b208 end:0x0214b20c
+
+src/data/ov008_bss_0214b20c.c:
+    complete
+    .bss        start:0x0214b20c end:0x0214b218
+
+src/data/ov008_bss_0214b218.c:
+    complete
+    .bss        start:0x0214b218 end:0x0214b220
+
+src/data/ov008_bss_0214b220.c:
+    complete
+    .bss        start:0x0214b220 end:0x0214b228
+
+src/data/ov008_bss_0214b228.c:
+    complete
+    .bss        start:0x0214b228 end:0x0214b22c
+
+src/data/ov008_bss_0214b22c.c:
+    complete
+    .bss        start:0x0214b22c end:0x0214b238
+
+src/data/ov008_bss_0214b238.c:
+    complete
+    .bss        start:0x0214b238 end:0x0214b240
+
+src/data/ov008_data_0214b0a0.c:
+    complete
+    .data       start:0x0214b0a0 end:0x0214b0ac
+
+src/data/ov008_data_0214b0ac.c:
+    complete
+    .data       start:0x0214b0ac end:0x0214b0b8
+
+src/data/ov008_data_0214b0dc.c:
+    complete
+    .data       start:0x0214b0dc end:0x0214b100
+
+src/data/ov008_data_0214b100.c:
+    complete
+    .data       start:0x0214b100 end:0x0214b128
+
+src/data/ov008_data_0214b128.c:
+    complete
+    .data       start:0x0214b128 end:0x0214b150
+
+src/data/ov008_data_0214b150.c:
+    complete
+    .data       start:0x0214b150 end:0x0214b184
+
+src/data/ov008_data_0214b184.c:
+    complete
+    .data       start:0x0214b184 end:0x0214b1b8
+
+src/data/ov008_data_0214b1b8.c:
+    complete
+    .data       start:0x0214b1b8 end:0x0214b1ec
+
+src/data/ov008_data_0214b1f4.c:
+    complete
+    .data       start:0x0214b1f4 end:0x0214b200
+
+src/data/ov008_rodata_0214afb8.c:
+    complete
+    .rodata     start:0x0214afb8 end:0x0214afbc
+
+src/data/ov008_rodata_0214afbc.c:
+    complete
+    .rodata     start:0x0214afbc end:0x0214afc0
+
+src/data/ov008_rodata_0214afc0.c:
+    complete
+    .rodata     start:0x0214afc0 end:0x0214b010

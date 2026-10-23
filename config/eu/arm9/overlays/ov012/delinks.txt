@@ -7,3 +7,27 @@
 src/data/ov012_data_0214a998.c:
     complete
     .data       start:0x0214a998 end:0x0214a9a4
+
+src/data/ov012_data_0214a980.c:
+    complete
+    .data       start:0x0214a980 end:0x0214a984
+
+src/data/ov012_data_0214a984.c:
+    complete
+    .data       start:0x0214a984 end:0x0214a990
+
+src/data/ov012_data_0214a990.c:
+    complete
+    .data       start:0x0214a990 end:0x0214a998
+
+src/data/ov012_data_0214a9a4.c:
+    complete
+    .data       start:0x0214a9a4 end:0x0214a9e0
+
+src/data/ov012_rodata_0214a964.c:
+    complete
+    .rodata     start:0x0214a964 end:0x0214a968
+
+src/data/ov012_rodata_0214a968.c:
+    complete
+    .rodata     start:0x0214a968 end:0x0214a96c

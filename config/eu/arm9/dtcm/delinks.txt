@@ -1,2 +1,6 @@
     .data       start:0x027e0000 end:0x027e20e0 kind:data align:32
     .bss        start:0x027e20e0 end:0x027e20e0 kind:bss align:32
+
+src/data/dtcm_data_027e2074.c:
+    complete
+    .data       start:0x027e2074 end:0x027e20cc

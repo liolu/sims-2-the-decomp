@@ -1,5 +1,4 @@
 data_027e0000 kind:data(any) addr:0x027e0000
-data_027e0001 kind:data(any) addr:0x027e0001
 data_027e0004 kind:data(any) addr:0x027e0004
 data_027e0008 kind:data(any) addr:0x027e0008
 data_027e0014 kind:data(any) addr:0x027e0014
@@ -10,7 +9,6 @@ data_027e00c4 kind:data(any) addr:0x027e00c4
 data_027e00c8 kind:data(any) addr:0x027e00c8
 data_027e00fc kind:data(any) addr:0x027e00fc
 data_027e0cfc kind:data(any) addr:0x027e0cfc
-data_027e0fce kind:data(any) addr:0x027e0fce
 data_027e10fc kind:data(any) addr:0x027e10fc
 data_027e1100 kind:data(any) addr:0x027e1100
 data_027e1104 kind:data(any) addr:0x027e1104

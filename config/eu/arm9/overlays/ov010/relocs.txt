@@ -197,7 +197,7 @@ from:0x0214ba30 kind:arm_call to:0x02046384 module:main
 from:0x0214ba7c kind:arm_call to:0x02049b00 module:main
 from:0x0214ba8c kind:arm_call to:0x02049b00 module:main
 from:0x0214bae4 kind:load to:0x02152e74 module:overlay(10)
-from:0x0214bae8 kind:load to:0x02152ca9 module:overlay(10)
+from:0x0214bae8 kind:load to:0x02152ca8 add:0x1 module:overlay(10)
 from:0x0214baec kind:load to:0x02152ca8 module:overlay(10)
 from:0x0214bb0c kind:arm_call to:0x0204688c module:main
 from:0x0214bb24 kind:arm_call to:0x0201716c module:main
