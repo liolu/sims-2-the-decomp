@@ -17891,3 +17891,15 @@ src/data/main_data_02139018.c:
 src/data/main_data_02139204.c:
     complete
     .data       start:0x02139204 end:0x02139220
+
+src/auto/func_020ecb6c.c:
+    complete
+    .text       start:0x020ecb6c end:0x020ecc34
+
+src/auto/func_020f7fe8.c:
+    complete
+    .text       start:0x020f7fe8 end:0x020f8094
+
+src/auto/func_020f8094.c:
+    complete
+    .text       start:0x020f8094 end:0x020f8144
