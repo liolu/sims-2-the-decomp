@@ -1,0 +1,11 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+M2C_UNK func_02017640();                            /* extern */
+extern M2C_UNK data_ov009_0214c1d4;
+
+M2C_UNK **func_ov009_0214a604(M2C_UNK **arg0) {
+    *arg0 = &data_ov009_0214c1d4;
+    func_02017640();
+    return arg0;
+}

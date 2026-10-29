@@ -295,3 +295,11 @@ src/data/ov010_rodata_02152d90.c:
 src/data/ov010_rodata_02152d94.c:
     complete
     .rodata     start:0x02152d94 end:0x02152da8
+
+src/auto/func_ov010_02152660.c:
+    complete
+    .text       start:0x02152660 end:0x02152684
+
+src/auto/func_ov010_02152684.c:
+    complete
+    .text       start:0x02152684 end:0x021526b0

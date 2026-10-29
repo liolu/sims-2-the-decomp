@@ -343,3 +343,7 @@ src/data/ov003_rodata_0215073c.c:
 src/data/ov003_rodata_02150000.c:
     complete
     .rodata     start:0x02150000 end:0x02150004
+
+src/auto/func_ov003_0214b440.c:
+    complete
+    .text       start:0x0214b440 end:0x0214b454
