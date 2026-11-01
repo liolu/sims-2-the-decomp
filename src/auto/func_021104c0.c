@@ -1,7 +1,7 @@
 /* compiler: 1.2/sp2p3  */
 #include "m2c.h"
 
-void *func_02110700(void *, M2C_UNK *);             /* extern */
+void *_Z22__DecodeUnsignedNumberPcPm(void *, M2C_UNK *);             /* extern */
 
 void func_021104c0(u8 *arg0) {
     M2C_UNK sp0;
@@ -9,9 +9,9 @@ void func_021104c0(u8 *arg0) {
     void *temp_r0;
 
     temp_r4 = *arg0;
-    temp_r0 = func_02110700(arg0 + 2, &sp0);
+    temp_r0 = _Z22__DecodeUnsignedNumberPcPm(arg0 + 2, &sp0);
     if (!(temp_r4 & 0x40)) {
         return;
     }
-    func_02110700(temp_r0, &sp0);
+    _Z22__DecodeUnsignedNumberPcPm(temp_r0, &sp0);
 }
