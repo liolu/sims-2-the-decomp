@@ -100,3 +100,7 @@ src/auto/func_ov009_0214a8d0.c:
 src/auto/func_ov009_0214ad64.c:
     complete
     .text       start:0x0214ad64 end:0x0214ad6c
+
+src/data/ov009_ctor_0214c0e8.c:
+    complete
+    .ctor       start:0x0214c0e8 end:0x0214c0ec

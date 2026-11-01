@@ -83,3 +83,7 @@ src/data/ov002_rodata_0214c0e0.c:
 src/data/ov002_rodata_0214c0fc.c:
     complete
     .rodata     start:0x0214c0fc end:0x0214c118
+
+src/data/ov002_rodata_0214c0e8.c:
+    complete
+    .rodata     start:0x0214c0e8 end:0x0214c0fc

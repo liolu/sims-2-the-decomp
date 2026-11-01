@@ -132,3 +132,7 @@ src/data/dtcm_data_027e20cc.c:
 src/data/dtcm_data_027e20d0.c:
     complete
     .data       start:0x027e20d0 end:0x027e20e0
+
+src/data/dtcm_data_027e0014.c:
+    complete
+    .data       start:0x027e0014 end:0x027e0048

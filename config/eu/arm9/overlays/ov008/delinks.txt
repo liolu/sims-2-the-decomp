@@ -112,3 +112,7 @@ src/data/ov008_rodata_0214afbc.c:
 src/data/ov008_rodata_0214afc0.c:
     complete
     .rodata     start:0x0214afc0 end:0x0214b010
+
+src/data/ov008_ctor_0214b098.c:
+    complete
+    .ctor       start:0x0214b098 end:0x0214b09c

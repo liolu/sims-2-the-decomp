@@ -21225,3 +21225,239 @@ src/auto/func_020459d0.cpp:
 src/auto/func_020f8504.c:
     complete
     .text       start:0x020f8504 end:0x020f8578
+
+src/data/main_rodata_0211e4c0.c:
+    complete
+    .rodata     start:0x0211e4c0 end:0x0211e4f0
+
+src/data/main_rodata_0212b318.c:
+    complete
+    .rodata     start:0x0212b318 end:0x0212b360
+
+src/data/main_bss_0213c238.c:
+    complete
+    .bss        start:0x0213c238 end:0x0213c239
+
+src/data/main_bss_0213c239.c:
+    complete
+    .bss        start:0x0213c239 end:0x0213c23a
+
+src/data/main_bss_0213c23a.c:
+    complete
+    .bss        start:0x0213c23a end:0x0213d568
+
+src/data/main_bss_0213d56c.c:
+    complete
+    .bss        start:0x0213d56c end:0x0213d56e
+
+src/data/main_bss_0213d56e.c:
+    complete
+    .bss        start:0x0213d56e end:0x0213d570
+
+src/data/main_bss_02142554.c:
+    complete
+    .bss        start:0x02142554 end:0x02142556
+
+src/data/main_bss_02142556.c:
+    complete
+    .bss        start:0x02142556 end:0x02142558
+
+src/data/main_bss_02145f30.c:
+    complete
+    .bss        start:0x02145f30 end:0x02145f32
+
+src/data/main_bss_02145f32.c:
+    complete
+    .bss        start:0x02145f32 end:0x02145f34
+
+src/data/main_bss_02145f34.c:
+    complete
+    .bss        start:0x02145f34 end:0x02145f36
+
+src/data/main_bss_02145f36.c:
+    complete
+    .bss        start:0x02145f36 end:0x02145f38
+
+src/data/main_bss_02145f38.c:
+    complete
+    .bss        start:0x02145f38 end:0x02145f3e
+
+src/data/main_bss_02145f3e.c:
+    complete
+    .bss        start:0x02145f3e end:0x02145f40
+
+src/data/main_ctor_0212f810.c:
+    complete
+    .ctor       start:0x0212f810 end:0x0212f814
+
+src/data/main_ctor_0212f814.c:
+    complete
+    .ctor       start:0x0212f814 end:0x0212f818
+
+src/data/main_ctor_0212f818.c:
+    complete
+    .ctor       start:0x0212f818 end:0x0212f81c
+
+src/data/main_ctor_0212f81c.c:
+    complete
+    .ctor       start:0x0212f81c end:0x0212f820
+
+src/data/main_ctor_0212f820.c:
+    complete
+    .ctor       start:0x0212f820 end:0x0212f824
+
+src/data/main_ctor_0212f824.c:
+    complete
+    .ctor       start:0x0212f824 end:0x0212f828
+
+src/data/main_ctor_0212f828.c:
+    complete
+    .ctor       start:0x0212f828 end:0x0212f82c
+
+src/data/main_ctor_0212f82c.c:
+    complete
+    .ctor       start:0x0212f82c end:0x0212f830
+
+src/data/main_ctor_0212f830.c:
+    complete
+    .ctor       start:0x0212f830 end:0x0212f834
+
+src/data/main_ctor_0212f834.c:
+    complete
+    .ctor       start:0x0212f834 end:0x0212f838
+
+src/data/main_ctor_0212f838.c:
+    complete
+    .ctor       start:0x0212f838 end:0x0212f83c
+
+src/data/main_ctor_0212f83c.c:
+    complete
+    .ctor       start:0x0212f83c end:0x0212f840
+
+src/data/main_ctor_0212f840.c:
+    complete
+    .ctor       start:0x0212f840 end:0x0212f844
+
+src/data/main_ctor_0212f844.c:
+    complete
+    .ctor       start:0x0212f844 end:0x0212f848
+
+src/data/main_ctor_0212f848.c:
+    complete
+    .ctor       start:0x0212f848 end:0x0212f84c
+
+src/data/main_ctor_0212f84c.c:
+    complete
+    .ctor       start:0x0212f84c end:0x0212f850
+
+src/data/main_ctor_0212f850.c:
+    complete
+    .ctor       start:0x0212f850 end:0x0212f854
+
+src/data/main_ctor_0212f854.c:
+    complete
+    .ctor       start:0x0212f854 end:0x0212f858
+
+src/data/main_ctor_0212f858.c:
+    complete
+    .ctor       start:0x0212f858 end:0x0212f85c
+
+src/data/main_ctor_0212f85c.c:
+    complete
+    .ctor       start:0x0212f85c end:0x0212f860
+
+src/data/main_ctor_0212f860.c:
+    complete
+    .ctor       start:0x0212f860 end:0x0212f864
+
+src/data/main_ctor_0212f864.c:
+    complete
+    .ctor       start:0x0212f864 end:0x0212f868
+
+src/data/main_ctor_0212f868.c:
+    complete
+    .ctor       start:0x0212f868 end:0x0212f86c
+
+src/data/main_ctor_0212f86c.c:
+    complete
+    .ctor       start:0x0212f86c end:0x0212f870
+
+src/data/main_ctor_0212f870.c:
+    complete
+    .ctor       start:0x0212f870 end:0x0212f874
+
+src/data/main_ctor_0212f874.c:
+    complete
+    .ctor       start:0x0212f874 end:0x0212f878
+
+src/data/main_ctor_0212f878.c:
+    complete
+    .ctor       start:0x0212f878 end:0x0212f87c
+
+src/data/main_ctor_0212f87c.c:
+    complete
+    .ctor       start:0x0212f87c end:0x0212f880
+
+src/data/main_ctor_0212f880.c:
+    complete
+    .ctor       start:0x0212f880 end:0x0212f884
+
+src/data/main_ctor_0212f884.c:
+    complete
+    .ctor       start:0x0212f884 end:0x0212f888
+
+src/data/main_ctor_0212f888.c:
+    complete
+    .ctor       start:0x0212f888 end:0x0212f88c
+
+src/data/main_ctor_0212f88c.c:
+    complete
+    .ctor       start:0x0212f88c end:0x0212f890
+
+src/data/main_ctor_0212f890.c:
+    complete
+    .ctor       start:0x0212f890 end:0x0212f894
+
+src/data/main_ctor_0212f894.c:
+    complete
+    .ctor       start:0x0212f894 end:0x0212f898
+
+src/data/main_ctor_0212f898.c:
+    complete
+    .ctor       start:0x0212f898 end:0x0212f89c
+
+src/data/main_ctor_0212f89c.c:
+    complete
+    .ctor       start:0x0212f89c end:0x0212f8a0
+
+src/data/main_ctor_0212f8a0.c:
+    complete
+    .ctor       start:0x0212f8a0 end:0x0212f8a4
+
+src/data/main_ctor_0212f8a4.c:
+    complete
+    .ctor       start:0x0212f8a4 end:0x0212f8a8
+
+src/data/main_ctor_0212f8a8.c:
+    complete
+    .ctor       start:0x0212f8a8 end:0x0212f8ac
+
+src/data/main_ctor_0212f8ac.c:
+    complete
+    .ctor       start:0x0212f8ac end:0x0212f8b0
+
+src/data/main_ctor_0212f8b0.c:
+    complete
+    .ctor       start:0x0212f8b0 end:0x0212f8b4
+
+src/data/main_ctor_0212f8b4.c:
+    complete
+    .ctor       start:0x0212f8b4 end:0x0212f8b8
+
+src/data/main_ctor_0212f8b8.c:
+    complete
+    .ctor       start:0x0212f8b8 end:0x0212f8bc
+
+src/data/main_ctor_0212f8bc.c:
+    complete
+    .ctor       start:0x0212f8bc end:0x0212f8c0
