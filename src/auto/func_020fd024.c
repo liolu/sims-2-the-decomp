@@ -11,7 +11,7 @@ extern OSIntrMode func_020fbeb4(OSIntrMode state);
 extern s32 func_020f9bf0(void);
 typedef void (*MIDmaCallback)(void *);
 typedef struct {
-    BOOL is_init;
+    BOOL data_02147f58;
     u16 lock_id;
     u16 padding;
     MIDmaCallback dma_callback;
@@ -21,11 +21,11 @@ void func_020fd024(void) {
     MIi_CardParam *const p = &data_02146364;
     OSIntrMode bak_psr     = func_020fbea0();
 
-    if (!p->is_init) {
+    if (!p->data_02147f58) {
         s32 lock_id = func_020f9bf0();
 
-        p->is_init = 1;
-        p->lock_id = (u16) lock_id;
+        p->data_02147f58 = 1;
+        p->lock_id       = (u16) lock_id;
     }
 
     (void) func_020fbeb4(bak_psr);

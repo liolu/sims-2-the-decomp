@@ -9,7 +9,7 @@
  * only keeps a value in a register when that value is not statically known (a call result)
  * or when the constant does not fit an ARM immediate (then it is a literal-pool `ldr`).
  *
- * Probed here before falling back to assembly (files build/agent_work/GXS_LoadOBJ/v1..v12.c):
+ * Probed here before falling back to assembly (files build/agent_work/func_020f8f40/v1..v12.c):
  *  - control flow: if+return, if/else, inverted condition (early return on the else side);
  *  - value forms for the base: literal used twice, single local computed before the branch
  *    (s32/u32), `register u32` local, `const`/`static const` local, `u8 *` pointer base,

@@ -3,6 +3,6 @@
 
 extern M2C_UNK (*data_02139128)();
 
-void func_02111ea8(void) {
+void _ZSt9terminatev(void) {
     data_02139128();
 }

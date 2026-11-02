@@ -13,7 +13,7 @@ namespace std {
 } // namespace std
 namespace std {
     extern "C" {
-    extern int memcmp(const void *a, const void *b, size_t size);
+    extern int func_02108070(const void *a, const void *b, size_t size);
     }
 } // namespace std
 typedef union Str {
@@ -121,7 +121,7 @@ inline LobbyEventDequeMapIterator::LobbyEventDequeMapIterator(LobbyEventDequeMap
     first(map->blocks),
     mid(first + map->start),
     last(first + map->capacity) {}
-using std::memcmp;
+using std::func_02108070;
 inline void *operator new(std::size_t, void *p) {
     return p;
 }
@@ -190,7 +190,8 @@ namespace HandleLibraryData {
         }
     };
     inline bool operator==(const Vec &a, const Vec &b) {
-        return a.size == b.size && (a.size == 0 || memcmp(LobbyByteVector_Data(&a), LobbyByteVector_Data(&b), a.size) == 0);
+        return a.size == b.size &&
+               (a.size == 0 || func_02108070(LobbyByteVector_Data(&a), LobbyByteVector_Data(&b), a.size) == 0);
     }
     struct Quad {
         u32 a;
@@ -198,7 +199,7 @@ namespace HandleLibraryData {
         u32 c;
     };
     inline bool operator==(const Quad &a, const Quad &b) {
-        return memcmp(&a, &b, sizeof(Quad)) == 0;
+        return func_02108070(&a, &b, sizeof(Quad)) == 0;
     }
 } // namespace HandleLibraryData
 namespace OnGetSchedule {
@@ -228,7 +229,7 @@ namespace OnGetSchedule {
     };
 } // namespace OnGetSchedule
 namespace OnEnterMainChannel {
-    using std::memcmp;
+    using std::func_02108070;
     struct TrueType {};
     struct FalseType {};
     template <class T, class U> inline void Assign(T &d, const U &s, TrueType, FalseType) {

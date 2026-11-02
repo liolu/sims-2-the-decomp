@@ -1001,9 +1001,9 @@ src/auto/func_021083f8.c 1.2/sp2p3
 src/auto/func_02108448.c 1.2/sp2p3
 src/auto/func_0210a790.c 1.2/sp2p3
 src/auto/func_021104c0.c 1.2/sp2p3
-src/auto/func_021107a8.c 1.2/sp2p3
+src/auto/_Z20__DecodeSignedNumberPcPl.c 1.2/sp2p3
 src/auto/func_02110850.c 1.2/sp2p3
-src/auto/func_02111ea8.c 1.2/sp2p3
+src/auto/_ZSt9terminatev.c 1.2/sp2p3
 src/auto/func_02111ed8.c 1.2/sp2p3
 src/auto/func_0211262c.c 1.2/sp2p3
 src/auto/func_02112658.c 1.2/sp2p3
@@ -2093,3 +2093,17 @@ src/auto/func_020fc944.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_020fe184.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_021020f0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_0210c5e0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020ef1b0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020ef94c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020effc0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020f0358.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020f0690.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020f078c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020f53e0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020fbbd8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020fe33c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020fe6fc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02109848.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_0210cb00.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_0210d3a4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_021109ec.cpp 1.2/sp2p3 -O4,p -inline on,noauto

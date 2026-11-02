@@ -1,5 +1,5 @@
 #include "m2c.h"
-extern u8 __mbtowc_noconv[];
+extern u8 func_02108038[];
 extern u8 func_02026d40[];
 extern u8 func_02026c84[];
 extern u8 func_02026c1c[];

@@ -20,7 +20,7 @@
  * The closest form is 1.2/sp2p3 with the real prototypes: it reproduces the whole function,
  * including the duplicated `pop {r4, lr}; bx lr` epilogues (2.0/sp1p5 instead tail-calls with
  * `pop {r4, pc}`), and is short by exactly one instruction - the `mov ip, #0x6600000`.
- * The twin GX_LoadOBJ (same code with 0x0640000, see src/auto/GX_LoadOBJ.c) was probed
+ * The twin func_020f8fa0 (same code with 0x0640000, see src/auto/func_020f8fa0.c) was probed
  * with ~150 shapes and every installed mwccarm profile and landed on the same conclusion.
  * This routine is therefore hand-written SDK block-transfer assembly.
  */

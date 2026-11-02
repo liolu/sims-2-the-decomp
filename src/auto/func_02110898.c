@@ -8,12 +8,12 @@ typedef struct Ctx {
 } Ctx;
 typedef struct Src Src;
 extern void func_02111a58(int handle, Ctx *ctx);
-extern void func_02111ea8(void);
+extern void _ZSt9terminatev(void);
 extern void func_02110518(Src *s, Ctx *ctx);
 extern int func_02110cc4(Src *s, Ctx *ctx);
 extern unsigned char *func_021109ec(Src *s, Ctx *ctx, int *out);
 extern unsigned char *_Z22__DecodeUnsignedNumberPcPm(unsigned char *p, int *out);
-extern unsigned char *func_021107a8(unsigned char *p, int *out);
+extern unsigned char *_Z20__DecodeSignedNumberPcPl(unsigned char *p, int *out);
 extern void func_02110e18(Src *s, Ctx *ctx, unsigned char *p);
 extern void func_0211097c(Src *s, int off, int add);
 extern void func_02110444(Src *s, Ctx *ctx, int n);
@@ -30,7 +30,7 @@ void func_02110898(struct Src *s) {
     unsigned char *q;
     func_02111a58(s->f10, &ctx);
     if (ctx.f4 == 0) {
-        func_02111ea8();
+        _ZSt9terminatev();
     }
     func_02110518(s, &ctx);
     if (s->f0 != 0) {
@@ -40,7 +40,7 @@ void func_02110898(struct Src *s) {
     }
     q      = func_021109ec(s, &ctx, &local0);
     blk[0] = q[1] | (q[2] << 8) | (q[3] << 16) | (q[4] << 24);
-    func_021107a8(_Z22__DecodeUnsignedNumberPcPm(q + 5, (int *) &blk[1]), (int *) &blk[2]);
+    _Z20__DecodeSignedNumberPcPl(_Z22__DecodeUnsignedNumberPcPm(q + 5, (int *) &blk[1]), (int *) &blk[2]);
     func_02110e18(s, &ctx, q);
     func_0211097c(s, blk[2], local0);
     func_02110444(s, &ctx, ctx.f0 + blk[1]);

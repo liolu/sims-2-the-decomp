@@ -7178,7 +7178,7 @@ src/auto/func_0211065c.c:
     complete
     .text       start:0x0211065c end:0x02110664
 
-src/auto/func_021107a8.c:
+src/auto/_Z20__DecodeSignedNumberPcPl.c:
     complete
     .text       start:0x021107a8 end:0x02110850
 
@@ -7190,7 +7190,7 @@ src/auto/func_02111e88.c:
     complete
     .text       start:0x02111e88 end:0x02111ea8
 
-src/auto/func_02111ea8.c:
+src/auto/_ZSt9terminatev.c:
     complete
     .text       start:0x02111ea8 end:0x02111ecc
 
@@ -22157,3 +22157,59 @@ src/auto/func_021020f0.c:
 src/auto/func_0210c5e0.c:
     complete
     .text       start:0x0210c5e0 end:0x0210c8c4
+
+src/donor/func_020ef1b0.c:
+    complete
+    .text       start:0x020ef1b0 end:0x020ef544
+
+src/donor/func_020ef94c.c:
+    complete
+    .text       start:0x020ef94c end:0x020effc0
+
+src/donor/func_020effc0.c:
+    complete
+    .text       start:0x020effc0 end:0x020f0358
+
+src/donor/func_020f0358.c:
+    complete
+    .text       start:0x020f0358 end:0x020f0690
+
+src/donor/func_020f0690.c:
+    complete
+    .text       start:0x020f0690 end:0x020f078c
+
+src/donor/func_020f078c.c:
+    complete
+    .text       start:0x020f078c end:0x020f09a0
+
+src/donor/func_020f53e0.c:
+    complete
+    .text       start:0x020f53e0 end:0x020f5774
+
+src/donor/func_020fbbd8.c:
+    complete
+    .text       start:0x020fbbd8 end:0x020fbd18
+
+src/donor/func_020fe33c.c:
+    complete
+    .text       start:0x020fe33c end:0x020fe6fc
+
+src/donor/func_020fe6fc.c:
+    complete
+    .text       start:0x020fe6fc end:0x020fe918
+
+src/donor/func_02109848.c:
+    complete
+    .text       start:0x02109848 end:0x02109b30
+
+src/donor/func_0210cb00.c:
+    complete
+    .text       start:0x0210cb00 end:0x0210cd58
+
+src/donor/func_0210d3a4.c:
+    complete
+    .text       start:0x0210d3a4 end:0x0210d474
+
+src/donor/func_021109ec.cpp:
+    complete
+    .text       start:0x021109ec end:0x02110bcc

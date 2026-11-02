@@ -1,7 +1,7 @@
 #include "m2c.h"
-extern u8 FSi_FindPathCommand[];
-extern u8 FSi_GetPathCommand[];
-extern u8 FSi_OpenFileDirectCommand[];
+extern u8 func_020fe6fc[];
+extern u8 func_020fe33c[];
+extern u8 func_020fe298[];
 extern u8 FSi_OpenFileFastCommand[];
 extern u8 FSi_ReadDirCommand[];
 extern u8 FSi_ReadFileCommand[];
