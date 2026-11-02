@@ -2059,3 +2059,5 @@ src/auto/func_020d3e78.c 1.2/sp2p3
 src/auto/func_ov013_0214a530.c 1.2/sp2p3
 src/auto/func_ov018_02149f9c.c 1.2/sp2p3
 src/auto/func_ov018_02149e2c.c 1.2/sp2p3
+src/auto/func_02072ed0.c 1.2/sp2p3
+src/auto/func_020e41f8.c 1.2/sp3

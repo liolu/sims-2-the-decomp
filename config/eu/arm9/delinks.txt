@@ -22089,3 +22089,15 @@ src/auto/func_02018458.c:
 src/auto/func_020d3e78.c:
     complete
     .text       start:0x020d3e78 end:0x020d3f48
+
+src/auto/func_02072ed0.c:
+    complete
+    .text       start:0x02072ed0 end:0x02072fec
+
+src/auto/func_020df6c8.c:
+    complete
+    .text       start:0x020df6c8 end:0x020df718
+
+src/auto/func_020e41f8.c:
+    complete
+    .text       start:0x020e41f8 end:0x020e4224
