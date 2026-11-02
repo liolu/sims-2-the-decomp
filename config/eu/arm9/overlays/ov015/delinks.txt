@@ -43,3 +43,7 @@ src/auto/func_ov015_0214a174.cpp:
 src/auto/func_ov015_02149b40.c:
     complete
     .text       start:0x02149b40 end:0x02149b5c
+
+src/auto/func_ov015_02149b5c.c:
+    complete
+    .text       start:0x02149b5c end:0x02149b8c

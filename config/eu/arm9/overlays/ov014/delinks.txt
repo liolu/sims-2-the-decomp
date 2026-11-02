@@ -311,3 +311,7 @@ src/auto/func_ov014_02149eec.c:
 src/auto/func_ov014_0214a850.c:
     complete
     .text       start:0x0214a850 end:0x0214a924
+
+src/auto/func_ov014_02149bac.c:
+    complete
+    .text       start:0x02149bac end:0x02149bdc

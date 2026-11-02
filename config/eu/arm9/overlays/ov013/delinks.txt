@@ -100,3 +100,7 @@ src/auto/func_ov013_0214a454.c:
 src/auto/func_ov013_0214a530.c:
     complete
     .text       start:0x0214a530 end:0x0214a5ec
+
+src/auto/func_ov013_02149bac.c:
+    complete
+    .text       start:0x02149bac end:0x02149bdc
