@@ -107,3 +107,31 @@ src/auto/func_ov005_0214aa30.c:
 src/auto/func_ov005_0214aa54.c:
     complete
     .text       start:0x0214aa54 end:0x0214aa60
+
+src/auto/func_ov005_0214a98c.cpp:
+    complete
+    .text       start:0x0214a98c end:0x0214a9d4
+
+src/auto/func_ov005_0214aa60.cpp:
+    complete
+    .text       start:0x0214aa60 end:0x0214aab8
+
+src/auto/func_ov005_02149b8c.cpp:
+    complete
+    .text       start:0x02149b8c end:0x02149c50
+
+src/auto/func_ov005_02149b40.c:
+    complete
+    .text       start:0x02149b40 end:0x02149b5c
+
+src/auto/func_ov005_0214a180.c:
+    complete
+    .text       start:0x0214a180 end:0x0214a1cc
+
+src/auto/func_ov005_0214a84c.c:
+    complete
+    .text       start:0x0214a84c end:0x0214a8a4
+
+src/auto/func_ov005_0214a9d4.c:
+    complete
+    .text       start:0x0214a9d4 end:0x0214aa30

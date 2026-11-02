@@ -67,3 +67,15 @@ src/data/ov001_rodata_0214b190.c:
 src/data/ov001_data_0214b1ec.c:
     complete
     .data       start:0x0214b1ec end:0x0214b200
+
+src/auto/func_ov001_02149b40.c:
+    complete
+    .text       start:0x02149b40 end:0x02149b5c
+
+src/auto/func_ov001_0214aba8.cpp:
+    complete
+    .text       start:0x0214aba8 end:0x0214ac64
+
+src/auto/func_ov001_0214b088.c:
+    complete
+    .text       start:0x0214b088 end:0x0214b0f4

@@ -31,3 +31,11 @@ src/data/ov012_rodata_0214a964.c:
 src/data/ov012_rodata_0214a968.c:
     complete
     .rodata     start:0x0214a968 end:0x0214a96c
+
+src/auto/func_ov012_02149b40.c:
+    complete
+    .text       start:0x02149b40 end:0x02149b5c
+
+src/auto/func_ov012_02149b8c.c:
+    complete
+    .text       start:0x02149b8c end:0x02149bc4

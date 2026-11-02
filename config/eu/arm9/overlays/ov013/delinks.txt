@@ -88,3 +88,15 @@ src/auto/func_ov013_02149b64.c:
 src/data/ov013_ctor_0214af6c.c:
     complete
     .ctor       start:0x0214af6c end:0x0214af70
+
+src/auto/func_ov013_02149b90.c:
+    complete
+    .text       start:0x02149b90 end:0x02149bac
+
+src/auto/func_ov013_0214a454.c:
+    complete
+    .text       start:0x0214a454 end:0x0214a530
+
+src/auto/func_ov013_0214a530.c:
+    complete
+    .text       start:0x0214a530 end:0x0214a5ec

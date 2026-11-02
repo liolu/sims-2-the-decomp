@@ -116,3 +116,59 @@ src/data/ov008_rodata_0214afc0.c:
 src/data/ov008_ctor_0214b098.c:
     complete
     .ctor       start:0x0214b098 end:0x0214b09c
+
+src/auto/func_ov008_0214a820.c:
+    complete
+    .text       start:0x0214a820 end:0x0214a824
+
+src/auto/func_ov008_02149df8.c:
+    complete
+    .text       start:0x02149df8 end:0x02149e50
+
+src/auto/func_ov008_02149e50.c:
+    complete
+    .text       start:0x02149e50 end:0x02149eb0
+
+src/auto/func_ov008_0214a2e4.c:
+    complete
+    .text       start:0x0214a2e4 end:0x0214a34c
+
+src/auto/func_ov008_0214a34c.c:
+    complete
+    .text       start:0x0214a34c end:0x0214a398
+
+src/auto/func_ov008_0214a428.c:
+    complete
+    .text       start:0x0214a428 end:0x0214a478
+
+src/auto/func_ov008_02149b40.c:
+    complete
+    .text       start:0x02149b40 end:0x02149bb0
+
+src/auto/func_ov008_02149bb0.c:
+    complete
+    .text       start:0x02149bb0 end:0x02149c28
+
+src/auto/func_ov008_02149c28.c:
+    complete
+    .text       start:0x02149c28 end:0x02149c98
+
+src/auto/func_ov008_02149c98.c:
+    complete
+    .text       start:0x02149c98 end:0x02149d10
+
+src/auto/func_ov008_02149d10.c:
+    complete
+    .text       start:0x02149d10 end:0x02149d80
+
+src/auto/func_ov008_02149d80.c:
+    complete
+    .text       start:0x02149d80 end:0x02149df8
+
+src/auto/func_ov008_0214a230.c:
+    complete
+    .text       start:0x0214a230 end:0x0214a2ac
+
+src/auto/func_ov008_0214a398.c:
+    complete
+    .text       start:0x0214a398 end:0x0214a428
