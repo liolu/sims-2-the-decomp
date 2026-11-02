@@ -22101,3 +22101,59 @@ src/auto/func_020df6c8.c:
 src/auto/func_020e41f8.c:
     complete
     .text       start:0x020e41f8 end:0x020e4224
+
+src/auto/_Z29AcknowledgeSpecificInterruptsj.c:
+    complete
+    .text       start:0x020f99e8 end:0x020f9a1c
+
+src/auto/func_021041cc.c:
+    complete
+    .text       start:0x021041cc end:0x02104230
+
+src/auto/func_0203bbf8.c:
+    complete
+    .text       start:0x0203bbf8 end:0x0203bc50
+
+src/auto/func_0209b2a0.c:
+    complete
+    .text       start:0x0209b2a0 end:0x0209b2fc
+
+src/auto/func_020f85f4.c:
+    complete
+    .text       start:0x020f85f4 end:0x020f8668
+
+src/auto/func_020f873c.c:
+    complete
+    .text       start:0x020f873c end:0x020f87bc
+
+src/auto/func_020f92b0.c:
+    complete
+    .text       start:0x020f92b0 end:0x020f9324
+
+src/auto/func_020f94b4.c:
+    complete
+    .text       start:0x020f94b4 end:0x020f9528
+
+src/auto/func_020f95e0.c:
+    complete
+    .text       start:0x020f95e0 end:0x020f9744
+
+src/auto/func_020fbd80.c:
+    complete
+    .text       start:0x020fbd80 end:0x020fbe1c
+
+src/auto/func_020fc944.c:
+    complete
+    .text       start:0x020fc944 end:0x020fca58
+
+src/auto/func_020fe184.c:
+    complete
+    .text       start:0x020fe184 end:0x020fe290
+
+src/auto/func_021020f0.c:
+    complete
+    .text       start:0x021020f0 end:0x02102328
+
+src/auto/func_0210c5e0.c:
+    complete
+    .text       start:0x0210c5e0 end:0x0210c8c4
