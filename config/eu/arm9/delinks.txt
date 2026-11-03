@@ -22661,3 +22661,19 @@ src/auto/func_02033d90.c:
 src/auto/func_020c711c.c:
     complete
     .text       start:0x020c711c end:0x020c71f4
+
+src/auto/func_020381e8.c:
+    complete
+    .text       start:0x020381e8 end:0x020382bc
+
+src/auto/func_020399f8.c:
+    complete
+    .text       start:0x020399f8 end:0x02039ad8
+
+src/auto/func_020bd960.c:
+    complete
+    .text       start:0x020bd960 end:0x020bda4c
+
+src/auto/func_02038388.cpp:
+    complete
+    .text       start:0x02038388 end:0x02038484
