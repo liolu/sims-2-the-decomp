@@ -2155,3 +2155,9 @@ src/auto/func_ov010_0214c11c.c 1.2/sp2p3
 src/auto/func_ov010_0214c250.c 1.2/sp2p3
 src/auto/func_ov010_0214fc34.c 1.2/sp2p3
 src/auto/func_ov013_0214a088.cpp 1.2/sp2p3
+src/auto/func_ov000_0214a2a0.c 1.2/sp2p3
+src/auto/func_ov009_0214ad6c.c 1.2/sp2p3
+src/auto/func_ov010_02149d18.c 1.2/sp2p3
+src/auto/func_ov010_0214a4b0.c 1.2/sp2p3
+src/auto/func_ov010_0214a938.c 1.2/sp2p3
+src/auto/func_ov010_0214ff7c.c 1.2/sp2p3

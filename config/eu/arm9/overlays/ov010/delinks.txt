@@ -391,3 +391,19 @@ src/auto/func_ov010_0214c250.c:
 src/auto/func_ov010_0214fc34.c:
     complete
     .text       start:0x0214fc34 end:0x0214fd38
+
+src/auto/func_ov010_02149d18.c:
+    complete
+    .text       start:0x02149d18 end:0x02149e7c
+
+src/auto/func_ov010_0214a4b0.c:
+    complete
+    .text       start:0x0214a4b0 end:0x0214a600
+
+src/auto/func_ov010_0214a938.c:
+    complete
+    .text       start:0x0214a938 end:0x0214aae0
+
+src/auto/func_ov010_0214ff7c.c:
+    complete
+    .text       start:0x0214ff7c end:0x02150110

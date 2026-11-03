@@ -156,3 +156,7 @@ src/auto/func_ov009_0214a438.cpp:
 src/auto/func_ov009_0214a89c.c:
     complete
     .text       start:0x0214a89c end:0x0214a8d0
+
+src/auto/func_ov009_0214ad6c.c:
+    complete
+    .text       start:0x0214ad6c end:0x0214af70

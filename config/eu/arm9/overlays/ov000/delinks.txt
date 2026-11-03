@@ -132,3 +132,7 @@ src/auto/func_ov000_0214e850.c:
 src/auto/func_ov000_0214b978.c:
     complete
     .text       start:0x0214b978 end:0x0214ba40
+
+src/auto/func_ov000_0214a2a0.c:
+    complete
+    .text       start:0x0214a2a0 end:0x0214a370
