@@ -124,3 +124,35 @@ src/auto/func_ov009_0214b90c.c:
 src/auto/func_ov009_0214a588.c:
     complete
     .text       start:0x0214a588 end:0x0214a604
+
+src/auto/func_ov009_02149b40.c:
+    complete
+    .text       start:0x02149b40 end:0x02149b70
+
+src/auto/func_ov009_0214a704.c:
+    complete
+    .text       start:0x0214a704 end:0x0214a748
+
+src/auto/func_ov009_0214a748.c:
+    complete
+    .text       start:0x0214a748 end:0x0214a77c
+
+src/auto/func_ov009_0214a798.c:
+    complete
+    .text       start:0x0214a798 end:0x0214a7c8
+
+src/auto/func_ov009_0214a7c8.c:
+    complete
+    .text       start:0x0214a7c8 end:0x0214a814
+
+src/auto/func_ov009_0214a8e4.c:
+    complete
+    .text       start:0x0214a8e4 end:0x0214a958
+
+src/auto/func_ov009_0214a438.cpp:
+    complete
+    .text       start:0x0214a438 end:0x0214a4e4
+
+src/auto/func_ov009_0214a89c.c:
+    complete
+    .text       start:0x0214a89c end:0x0214a8d0

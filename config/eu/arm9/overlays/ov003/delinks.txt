@@ -483,3 +483,87 @@ src/auto/func_ov003_0214e100.c:
 src/auto/func_ov003_02149b5c.c:
     complete
     .text       start:0x02149b5c end:0x02149b8c
+
+src/auto/func_ov003_0214a2ec.c:
+    complete
+    .text       start:0x0214a2ec end:0x0214a32c
+
+src/auto/func_ov003_0214a364.c:
+    complete
+    .text       start:0x0214a364 end:0x0214a3a4
+
+src/auto/func_ov003_0214a3c0.c:
+    complete
+    .text       start:0x0214a3c0 end:0x0214a410
+
+src/auto/func_ov003_0214a464.c:
+    complete
+    .text       start:0x0214a464 end:0x0214a47c
+
+src/auto/func_ov003_0214a5cc.cpp:
+    complete
+    .text       start:0x0214a5cc end:0x0214a794
+
+src/auto/func_ov003_0214be1c.c:
+    complete
+    .text       start:0x0214be1c end:0x0214be58
+
+src/auto/func_ov003_0214be58.c:
+    complete
+    .text       start:0x0214be58 end:0x0214be8c
+
+src/auto/func_ov003_0214bf24.c:
+    complete
+    .text       start:0x0214bf24 end:0x0214c0d0
+
+src/auto/func_ov003_0214c2bc.c:
+    complete
+    .text       start:0x0214c2bc end:0x0214c2f8
+
+src/auto/func_ov003_0214c2f8.c:
+    complete
+    .text       start:0x0214c2f8 end:0x0214c32c
+
+src/auto/func_ov003_0214c4b8.c:
+    complete
+    .text       start:0x0214c4b8 end:0x0214c6f8
+
+src/auto/func_ov003_0214d750.c:
+    complete
+    .text       start:0x0214d750 end:0x0214d8d0
+
+src/auto/func_ov003_0214dedc.c:
+    complete
+    .text       start:0x0214dedc end:0x0214df18
+
+src/auto/func_ov003_0214df18.c:
+    complete
+    .text       start:0x0214df18 end:0x0214df4c
+
+src/auto/func_ov003_0214e4ec.c:
+    complete
+    .text       start:0x0214e4ec end:0x0214e538
+
+src/auto/func_ov003_0214c3ac.c:
+    complete
+    .text       start:0x0214c3ac end:0x0214c4b8
+
+src/auto/func_ov003_0214d4e4.c:
+    complete
+    .text       start:0x0214d4e4 end:0x0214d5e4
+
+src/auto/func_ov003_0214d958.c:
+    complete
+    .text       start:0x0214d958 end:0x0214d9d8
+
+src/auto/func_ov003_0214dad0.c:
+    complete
+    .text       start:0x0214dad0 end:0x0214dbd8
+
+src/auto/func_ov003_0214dff4.c:
+    complete
+    .text       start:0x0214dff4 end:0x0214e100
+
+src/auto/func_ov003_0214f214.c:
+    complete
+    .text       start:0x0214f214 end:0x0214f39c
