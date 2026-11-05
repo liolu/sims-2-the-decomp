@@ -23298,3 +23298,15 @@ src/auto/func_020df908.c:
     complete
     .text       start:0x020df908 end:0x020df90c
 
+
+src/auto/func_0201e298.c:
+    complete
+    .text       start:0x0201e298 end:0x0201e2b0
+
+src/auto/func_02067a04.c:
+    complete
+    .text       start:0x02067a04 end:0x02067a34
+
+src/auto/func_02110cc4.cpp:
+    complete
+    .text       start:0x02110cc4 end:0x02110e18
