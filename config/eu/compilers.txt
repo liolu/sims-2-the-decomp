@@ -2402,3 +2402,34 @@ src/auto/func_02099ce4.c 1.2/sp2p3
 src/auto/func_0209a064.c 1.2/sp2p3
 src/auto/func_0208d7a4.c 1.2/sp2p3
 src/auto/func_020413b0.c 1.2/sp2p3
+src/auto/func_02026e04.cpp 1.2/sp2p3
+src/auto/func_0202b9b0.c 1.2/sp2p3
+src/auto/func_0202b9fc.c 1.2/sp2p3
+src/auto/func_0202f5b8.cpp 1.2/sp2p3
+src/auto/func_02031efc.c 1.2/sp2p3
+src/auto/func_02036350.c 1.2/sp2p3
+src/auto/func_02038198.c 1.2/sp2p3
+src/auto/func_0204891c.c 1.2/sp2p3
+src/auto/func_0209ba2c.c 1.2/sp2p3
+src/auto/func_0209bac8.c 1.2/sp2p3
+src/auto/func_0209e714.c 1.2/sp2p3
+src/auto/func_0209e910.c 1.2/sp2p3
+src/auto/func_020a0dd8.c 1.2/sp2p3
+src/auto/func_020a1fcc.c 1.2/sp2p3
+src/auto/func_020a2068.c 1.2/sp2p3
+src/auto/func_020a2cb4.c 1.2/sp2p3
+src/auto/func_020a2d70.c 1.2/sp2p3
+src/auto/func_020adb0c.c 1.2/sp2p3
+src/auto/func_020adbc8.c 1.2/sp2p3
+src/auto/func_020b63b0.c 1.2/sp2p3
+src/auto/func_020c159c.c 1.2/sp2p3
+src/auto/func_020c46fc.c 1.2/sp2p3
+src/auto/func_020c7a80.c 1.2/sp2p3
+src/auto/func_020e9d9c.c 1.2/sp3
+src/auto/func_021116a0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020dba28.c 1.2/sp2p3 -nointerworking
+src/auto/func_0203015c.c 1.2/sp2p3
+src/auto/func_0203cec4.c 1.2/sp2p3
+src/auto/func_02082a94.c 1.2/sp2p3
+src/auto/func_0209efcc.c 1.2/sp2p3
+src/auto/func_020df908.c 1.2/sp2p3 -nointerworking

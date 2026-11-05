@@ -4473,12 +4473,12 @@ func_0210ea78 kind:function(arm,size=0x4) addr:0x0210ea78
 func_0210ea7c kind:function(arm,size=0x88) addr:0x0210ea7c
 func_0210eb04 kind:function(arm,size=0x88) addr:0x0210eb04
 func_0210eb8c kind:function(arm,size=0x94) addr:0x0210eb8c
-.L_0210eba0 kind:label(arm) addr:0x0210eba0 local
+lbl_0210eba0 kind:label(arm) addr:0x0210eba0
 func_0210ec20 kind:function(arm,size=0x4) addr:0x0210ec20
 func_0210ec24 kind:function(arm,size=0x88) addr:0x0210ec24
 func_0210ecac kind:function(arm,size=0x88) addr:0x0210ecac
 func_0210ed34 kind:function(arm,size=0x94) addr:0x0210ed34
-.L_0210ed48 kind:label(arm) addr:0x0210ed48 local
+lbl_0210ed48 kind:label(arm) addr:0x0210ed48
 func_0210edc8 kind:function(arm,size=0x4) addr:0x0210edc8
 func_0210edcc kind:function(arm,size=0x50) addr:0x0210edcc
 func_0210ee1c kind:function(arm,size=0x50) addr:0x0210ee1c
