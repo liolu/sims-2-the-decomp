@@ -2433,3 +2433,4 @@ src/auto/func_0203cec4.c 1.2/sp2p3
 src/auto/func_02082a94.c 1.2/sp2p3
 src/auto/func_0209efcc.c 1.2/sp2p3
 src/auto/func_020df908.c 1.2/sp2p3 -nointerworking
+src/auto/func_01ffdc7c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
