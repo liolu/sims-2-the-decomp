@@ -1,0 +1,25 @@
+# Functions written as `asm void` with the user's approval (2026-11-06): hand-written code proven not to be C
+# (rounds rsel/rsel2, several profiles tried). workbench.judge skips the fake-match check for these names only.
+func_0210e560  soft-float compare: constant kept in r3 + `cmp r3, r0, lsl #1`, conditional bx
+func_0210e59c  soft-float compare (same family as 0210e560)
+func_0210e610  soft-float compare: `cmphs r3, r1, lsl #1`, bicmi/rsbmi
+func_0210e64c  soft-float compare (same family as 0210e610)
+func_0210e6cc  soft-float compare (same family as 0210e610)
+func_0210e708  soft-float compare (same family as 0210e610)
+func_0210e744  soft-float compare: result returned in the CPSR flags (r0 never written)
+func_0210e780  soft-float compare: constant in r3 + conditional bx
+func_0210e7a4  soft-float compare (same family as 0210e780)
+func_0210e7c8  soft-float 3-way double compare: carry test `cmn ip, r1, lsl #1`
+func_0210e858  soft-float 3-way double compare (same as 0210e7c8)
+func_0210e8e8  soft-float double compare (dneq): `cmn ip, r1, lsl #1`, flags reused across blocks
+_deq           soft-float double compare: `cmn ip, r1, lsl #1` (asm in other decomps too)
+func_0210ea7c  soft-float double compare (lt)
+func_0210eb04  soft-float double compare (le)
+func_0210ec24  soft-float double compare (gt)
+func_0210ecac  soft-float double compare (ge)
+func_0210edcc  soft-float compare: `cmn ip, rX, lsl #1`, branch back into a shared block
+func_0210ee1c  soft-float compare (same as 0210edcc)
+func_01ff8880  ITCM routine: inputs in r8-r11/lr, returns with ldm lr!,{...,pc} without pushing lr
+func_01ff8c00  ITCM routine (same as 01ff8880)
+func_020fcda0  thumb block clear: three zero registers + stmia r0!,{r1,r2,r3}
+func_020fcdb0  thumb block clear (same idiom)

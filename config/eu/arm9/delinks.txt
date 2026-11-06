@@ -23390,3 +23390,87 @@ src/auto/func_0205f82c.c:
 src/auto/func_020e3bac.c:
     complete
     .text       start:0x020e3bac end:0x020e3c4c
+
+src/auto/_deq.c:
+    complete
+    .text       start:0x0210e970 end:0x0210e9f8
+
+src/auto/func_020fcda0.c:
+    complete
+    .text       start:0x020fcda0 end:0x020fcdae
+
+src/auto/func_020fcdb0.c:
+    complete
+    .text       start:0x020fcdb0 end:0x020fcdc4
+
+src/auto/func_0210e560.c:
+    complete
+    .text       start:0x0210e560 end:0x0210e59c
+
+src/auto/func_0210e59c.c:
+    complete
+    .text       start:0x0210e59c end:0x0210e5d8
+
+src/auto/func_0210e610.c:
+    complete
+    .text       start:0x0210e610 end:0x0210e64c
+
+src/auto/func_0210e64c.c:
+    complete
+    .text       start:0x0210e64c end:0x0210e688
+
+src/auto/func_0210e6cc.c:
+    complete
+    .text       start:0x0210e6cc end:0x0210e708
+
+src/auto/func_0210e708.c:
+    complete
+    .text       start:0x0210e708 end:0x0210e744
+
+src/auto/func_0210e744.c:
+    complete
+    .text       start:0x0210e744 end:0x0210e780
+
+src/auto/func_0210e780.c:
+    complete
+    .text       start:0x0210e780 end:0x0210e7a4
+
+src/auto/func_0210e7a4.c:
+    complete
+    .text       start:0x0210e7a4 end:0x0210e7c8
+
+src/auto/func_0210e7c8.c:
+    complete
+    .text       start:0x0210e7c8 end:0x0210e858
+
+src/auto/func_0210e858.c:
+    complete
+    .text       start:0x0210e858 end:0x0210e8e8
+
+src/auto/func_0210e8e8.c:
+    complete
+    .text       start:0x0210e8e8 end:0x0210e970
+
+src/auto/func_0210ea7c.c:
+    complete
+    .text       start:0x0210ea7c end:0x0210eb04
+
+src/auto/func_0210eb04.c:
+    complete
+    .text       start:0x0210eb04 end:0x0210eb8c
+
+src/auto/func_0210ec24.c:
+    complete
+    .text       start:0x0210ec24 end:0x0210ecac
+
+src/auto/func_0210ecac.c:
+    complete
+    .text       start:0x0210ecac end:0x0210ed34
+
+src/auto/func_0210edcc.c:
+    complete
+    .text       start:0x0210edcc end:0x0210ee1c
+
+src/auto/func_0210ee1c.c:
+    complete
+    .text       start:0x0210ee1c end:0x0210ee6c
