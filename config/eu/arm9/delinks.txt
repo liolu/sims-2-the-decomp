@@ -23474,3 +23474,19 @@ src/auto/func_0210edcc.c:
 src/auto/func_0210ee1c.c:
     complete
     .text       start:0x0210ee1c end:0x0210ee6c
+
+src/auto/func_02001394.c:
+    complete
+    .text       start:0x02001394 end:0x020013a8
+
+src/auto/func_020015f8.c:
+    complete
+    .text       start:0x020015f8 end:0x0200160c
+
+src/auto/func_02111694.c:
+    complete
+    .text       start:0x02111694 end:0x021116a0
+
+src/auto/func_02111f7c.c:
+    complete
+    .text       start:0x02111f7c end:0x02111f98

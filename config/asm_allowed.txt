@@ -23,3 +23,9 @@ func_01ff8880  ITCM routine: inputs in r8-r11/lr, returns with ldm lr!,{...,pc} 
 func_01ff8c00  ITCM routine (same as 01ff8880)
 func_020fcda0  thumb block clear: three zero registers + stmia r0!,{r1,r2,r3}
 func_020fcdb0  thumb block clear (same idiom)
+func_02111694  fragment: shared epilogue (add sp; pop; bx lr) of func_02110e18, split as its own symbol, no prologue
+func_02111f7c  fragment: C++ exception landing pad of func_02111f20 (uses the owner's r11 frame), no prologue
+func_02001394  fragment: self-branching tail after the hand-asm func_020012a8, no prologue, no return
+func_020015f8  fragment: self-branching tail after the hand-asm func_020013a8, no prologue, no return
+func_ov008_0214af98  C++ this-adjust thunk (-36) the compiler emits itself; it has no C name
+func_ov008_0214afa8  C++ this-adjust thunk (-36) the compiler emits itself; it has no C name
