@@ -23758,3 +23758,10 @@ src/auto/func_0210c348.c:
     complete
     .text       start:0x0210c348 end:0x0210c520
 
+src/auto/__FindExceptionTable.c:
+    complete
+    .text       start:0x021104f8 end:0x02110518
+
+src/auto/func_02110474.c:
+    complete
+    .text       start:0x02110474 end:0x021104c0
