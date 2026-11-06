@@ -160,3 +160,27 @@ src/auto/func_ov009_0214a89c.c:
 src/auto/func_ov009_0214ad6c.c:
     complete
     .text       start:0x0214ad6c end:0x0214af70
+
+src/auto/func_ov009_02149d40.cpp:
+    complete
+    .text       start:0x02149d40 end:0x0214a104
+
+src/auto/func_ov009_0214af70.cpp:
+    complete
+    .text       start:0x0214af70 end:0x0214b100
+
+src/auto/func_ov009_0214b494.cpp:
+    complete
+    .text       start:0x0214b494 end:0x0214b600
+
+src/auto/func_ov009_0214b600.c:
+    complete
+    .text       start:0x0214b600 end:0x0214b85c
+
+src/auto/func_ov009_0214b85c.cpp:
+    complete
+    .text       start:0x0214b85c end:0x0214b90c
+
+src/auto/func_ov009_0214b964.c:
+    complete
+    .text       start:0x0214b964 end:0x0214badc

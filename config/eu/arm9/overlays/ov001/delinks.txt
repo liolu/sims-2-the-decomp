@@ -91,3 +91,15 @@ src/auto/func_ov001_0214a320.c:
 src/auto/func_ov001_0214ac64.c:
     complete
     .text       start:0x0214ac64 end:0x0214acfc
+
+src/auto/func_ov001_02149b8c.c:
+    complete
+    .text       start:0x02149b8c end:0x02149cb8
+
+src/auto/func_ov001_02149cb8.cpp:
+    complete
+    .text       start:0x02149cb8 end:0x02149e3c
+
+src/auto/func_ov001_0214acfc.cpp:
+    complete
+    .text       start:0x0214acfc end:0x0214b088

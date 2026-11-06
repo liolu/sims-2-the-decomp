@@ -43,3 +43,15 @@ src/auto/func_ov012_02149b8c.c:
 src/auto/func_ov012_02149b5c.c:
     complete
     .text       start:0x02149b5c end:0x02149b8c
+
+src/auto/func_ov012_02149bc4.c:
+    complete
+    .text       start:0x02149bc4 end:0x02149d74
+
+src/auto/func_ov012_0214a2a8.c:
+    complete
+    .text       start:0x0214a2a8 end:0x0214a684
+
+src/auto/func_ov012_0214a684.cpp:
+    complete
+    .text       start:0x0214a684 end:0x0214a964

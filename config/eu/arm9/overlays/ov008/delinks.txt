@@ -180,3 +180,11 @@ src/auto/func_ov008_0214a2ac.c:
 src/auto/func_ov008_0214a634.c:
     complete
     .text       start:0x0214a634 end:0x0214a820
+
+src/auto/func_ov008_02149eb0.c:
+    complete
+    .text       start:0x02149eb0 end:0x0214a0d4
+
+src/auto/func_ov008_0214a478.c:
+    complete
+    .text       start:0x0214a478 end:0x0214a634

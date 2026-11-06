@@ -120,3 +120,11 @@ src/auto/func_ov013_0214a100.c:
 src/auto/func_ov013_0214a7e4.c:
     complete
     .text       start:0x0214a7e4 end:0x0214a9f0
+
+src/auto/func_ov013_0214a5ec.c:
+    complete
+    .text       start:0x0214a5ec end:0x0214a758
+
+src/auto/func_ov013_0214a9f0.cpp:
+    complete
+    .text       start:0x0214a9f0 end:0x0214adb0

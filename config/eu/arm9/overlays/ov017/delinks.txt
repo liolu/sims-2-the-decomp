@@ -99,3 +99,23 @@ src/auto/func_ov017_02149b40.c:
 src/auto/func_ov017_02149b5c.c:
     complete
     .text       start:0x02149b5c end:0x02149b8c
+
+src/auto/func_ov017_02149d10.c:
+    complete
+    .text       start:0x02149d10 end:0x02149f7c
+
+src/auto/func_ov017_02149f7c.cpp:
+    complete
+    .text       start:0x02149f7c end:0x0214a354
+
+src/auto/func_ov017_0214a7f0.c:
+    complete
+    .text       start:0x0214a7f0 end:0x0214a934
+
+src/auto/func_ov017_0214b36c.c:
+    complete
+    .text       start:0x0214b36c end:0x0214b7dc
+
+src/auto/func_ov017_0214bea8.cpp:
+    complete
+    .text       start:0x0214bea8 end:0x0214c498

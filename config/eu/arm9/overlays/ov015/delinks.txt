@@ -47,3 +47,19 @@ src/auto/func_ov015_02149b40.c:
 src/auto/func_ov015_02149b5c.c:
     complete
     .text       start:0x02149b5c end:0x02149b8c
+
+src/auto/func_ov015_02149b8c.c:
+    complete
+    .text       start:0x02149b8c end:0x02149cd0
+
+src/auto/func_ov015_02149cd0.c:
+    complete
+    .text       start:0x02149cd0 end:0x0214a174
+
+src/auto/func_ov015_0214a1d8.c:
+    complete
+    .text       start:0x0214a1d8 end:0x0214a3c4
+
+src/auto/func_ov015_0214a3c4.cpp:
+    complete
+    .text       start:0x0214a3c4 end:0x0214a694
