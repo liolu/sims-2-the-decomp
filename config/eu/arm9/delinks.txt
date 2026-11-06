@@ -23310,3 +23310,55 @@ src/auto/func_02067a04.c:
 src/auto/func_02110cc4.cpp:
     complete
     .text       start:0x02110cc4 end:0x02110e18
+
+src/auto/func_0200e440.c:
+    complete
+    .text       start:0x0200e440 end:0x0200e518
+
+src/auto/func_0200e518.c:
+    complete
+    .text       start:0x0200e518 end:0x0200e5f0
+
+src/auto/func_0200e5f0.c:
+    complete
+    .text       start:0x0200e5f0 end:0x0200e6c8
+
+src/auto/func_0200e6c8.c:
+    complete
+    .text       start:0x0200e6c8 end:0x0200e7a0
+
+src/auto/func_020d4e64.c:
+    complete
+    .text       start:0x020d4e64 end:0x020d4edc
+
+src/auto/func_020d4f64.c:
+    complete
+    .text       start:0x020d4f64 end:0x020d4fdc
+
+src/auto/func_020d5d44.c:
+    complete
+    .text       start:0x020d5d44 end:0x020d5dbc
+
+src/auto/func_020d5dbc.c:
+    complete
+    .text       start:0x020d5dbc end:0x020d5e34
+
+src/auto/func_020dc090.c:
+    complete
+    .text       start:0x020dc090 end:0x020dc120
+
+src/auto/func_020e3a64.c:
+    complete
+    .text       start:0x020e3a64 end:0x020e3aec
+
+src/auto/func_020e4b98.c:
+    complete
+    .text       start:0x020e4b98 end:0x020e4c28
+
+src/auto/func_020e4c28.c:
+    complete
+    .text       start:0x020e4c28 end:0x020e4cb8
+
+src/auto/func_020e9200.c:
+    complete
+    .text       start:0x020e9200 end:0x020e9288
