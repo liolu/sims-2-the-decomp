@@ -1,9 +1,9 @@
 /* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
-/* func_0210db44 from https://github.com/kh-recoded-decomp/kh-recoded-decomp eu/src/asm_stubs/calls/func_0210db44.c (license:
+/* _dflt from https://github.com/kh-recoded-decomp/kh-recoded-decomp eu/src/asm_stubs/calls/_dflt.c (license:
  * MIT), reused by tools/donor_match.py */
 // clang-format off
 #pragma ipa file
-asm double func_0210db44 (int value)
+asm double _dflt (int value)
 {
     ands r2, r0, #0x80000000
     rsbmi r0, r0, #0

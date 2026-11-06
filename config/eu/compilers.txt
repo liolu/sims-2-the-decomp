@@ -1342,7 +1342,7 @@ src/auto/func_0210d92c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/_dfix.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210da7c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210db08.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
-src/auto/func_0210db44.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/_dflt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/_dmul.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_0210f230.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210f2b4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
@@ -2559,3 +2559,6 @@ src/auto/func_02043a44.c 1.2/sp2p3
 src/auto/func_020eede0.c 1.2/sp2p3
 src/auto/func_020faf54.c 1.2/sp2p3
 src/auto/func_02108480.c 1.2/sp2p3
+src/auto/func_0210a804.c 1.2/sp2p3
+src/auto/func_0210b290.c 1.2/sp2p3
+src/auto/func_0210c348.c 1.2/sp2p3

@@ -19222,7 +19222,7 @@ src/auto/func_0210db08.c:
     complete
     .text       start:0x0210db08 end:0x0210db44
 
-src/auto/func_0210db44.c:
+src/auto/_dflt.c:
     complete
     .text       start:0x0210db44 end:0x0210db84
 
@@ -23458,11 +23458,11 @@ src/auto/func_0210eb04.c:
     complete
     .text       start:0x0210eb04 end:0x0210eb8c
 
-src/auto/func_0210ec24.c:
+src/auto/_dgr.c:
     complete
     .text       start:0x0210ec24 end:0x0210ecac
 
-src/auto/func_0210ecac.c:
+src/auto/_dgeq.c:
     complete
     .text       start:0x0210ecac end:0x0210ed34
 
@@ -23745,4 +23745,16 @@ src/auto/func_020faf54.c:
 src/auto/func_02108480.c:
     complete
     .text       start:0x02108480 end:0x02108d00
+
+src/auto/func_0210a804.c:
+    complete
+    .text       start:0x0210a804 end:0x0210af54
+
+src/auto/func_0210b290.c:
+    complete
+    .text       start:0x0210b290 end:0x0210bef8
+
+src/auto/func_0210c348.c:
+    complete
+    .text       start:0x0210c348 end:0x0210c520
 

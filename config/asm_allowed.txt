@@ -15,8 +15,8 @@ func_0210e8e8  soft-float double compare (dneq): `cmn ip, r1, lsl #1`, flags reu
 _deq           soft-float double compare: `cmn ip, r1, lsl #1` (asm in other decomps too)
 func_0210ea7c  soft-float double compare (lt)
 func_0210eb04  soft-float double compare (le)
-func_0210ec24  soft-float double compare (gt)
-func_0210ecac  soft-float double compare (ge)
+_dgr  soft-float double compare (gt)
+_dgeq  soft-float double compare (ge)
 func_0210edcc  soft-float compare: `cmn ip, rX, lsl #1`, branch back into a shared block
 func_0210ee1c  soft-float compare (same as 0210edcc)
 func_01ff8880  ITCM routine: inputs in r8-r11/lr, returns with ldm lr!,{...,pc} without pushing lr
@@ -29,3 +29,67 @@ func_02001394  fragment: self-branching tail after the hand-asm func_020012a8, n
 func_020015f8  fragment: self-branching tail after the hand-asm func_020013a8, no prologue, no return
 func_ov008_0214af98  C++ this-adjust thunk (-36) the compiler emits itself; it has no C name
 func_ov008_0214afa8  C++ this-adjust thunk (-36) the compiler emits itself; it has no C name
+# rpaste 2026-11-06: C++ this-adjust thunks (ldr ip,=-N; add r0,r0,ip; b dtor), same category as the ov008 thunks
+func_02014e3c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02014e4c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02069138  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02069148  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02069158  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208d2d8  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208d2e8  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208e214  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208e224  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208e6d0  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208e6e0  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208f304  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208f314  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208f69c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208f6ac  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208fa38  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208fa48  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208fd24  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0208fd34  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02090df4  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02090e04  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02090f90  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02090fa0  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209116c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209117c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02092adc  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02092aec  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_020946bc  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_020946cc  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02094c18  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02094c28  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_020950f8  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02095108  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02096f44  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02096f54  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_020970c8  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_020970d8  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02098e6c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02098e7c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209937c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209938c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_020995f0  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02099600  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02099bb4  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02099bc4  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02099db8  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_02099dc8  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209a130  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209a140  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209aa1c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209aa2c  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209aeb0  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209aec0  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209b0cc  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209b0dc  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209e6e4  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209e6f4  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_0209e704  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_020ad948  C++ this-adjust thunk the compiler emits itself; it has no C name
+func_020d05b8  C++ this-adjust thunk the compiler emits itself; it has no C name
+_u32_div_f  soft division runtime: add pc,pc,r2,lsl #2 into unrolled adcs chain (asm in tom-and-jerry-tales too)
+func_0210fee0  soft-float _ddiv: code-embedded table via sub r4,pc (asm in tom-and-jerry-tales too)
+func_02110474  C++ runtime __rethrow: prologue-only fragment, saves r4-r11/ip/lr and branches out (asm in sm64ds-decomp too)
