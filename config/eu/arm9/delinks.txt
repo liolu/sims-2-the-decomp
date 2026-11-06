@@ -23765,3 +23765,7 @@ src/auto/__FindExceptionTable.c:
 src/auto/func_02110474.c:
     complete
     .text       start:0x02110474 end:0x021104c0
+
+src/auto/func_02111c40.c:
+    complete
+    .text       start:0x02111c40 end:0x02111c78
