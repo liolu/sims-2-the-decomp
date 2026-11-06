@@ -11,11 +11,11 @@ No game assets in this repository: see `extract/README.md`.
 ## Progress
 
 <!-- progress:start -->
-`██████░░░░░░░░░░░░░░` **31.14%** of the code matched · data 100.00% · 3486/5063 functions
+`██████░░░░░░░░░░░░░░` **31.15%** of the code matched · data 100.00% · 3492/5063 functions
 
 | Part of the code | Files | Functions | Share of all code |
 |---|---|---|---|
-| Auto-matched (raw m2c output, to clean up) | 3349 | 3349/3349 | 28.03% |
+| Auto-matched (raw m2c output, to clean up) | 3355 | 3355/3355 | 28.04% |
 | Reused from other decompilations, not merged into files yet | 137 | 137/137 | 3.11% |
 | Game code: `src/data/` | 3226 | 0/0 | 0.00% |
 
