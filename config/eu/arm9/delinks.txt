@@ -26309,3 +26309,23 @@ src/auto/func_02107a2c.c:
 src/auto/func_02112330.c:
     complete
     .text       start:0x02112330 end:0x0211262c
+
+src/auto/func_02026470.c:
+    complete
+    .text       start:0x02026470 end:0x02026890
+
+src/auto/func_0206c0d4.cpp:
+    complete
+    .text       start:0x0206c0d4 end:0x0206c1f0
+
+src/auto/func_02097138.c:
+    complete
+    .text       start:0x02097138 end:0x02097554
+
+src/auto/func_020acfe4.cpp:
+    complete
+    .text       start:0x020acfe4 end:0x020ad228
+
+src/auto/func_020ca190.c:
+    complete
+    .text       start:0x020ca190 end:0x020ca5bc
