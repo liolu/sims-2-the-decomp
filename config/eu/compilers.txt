@@ -3130,3 +3130,22 @@ src/auto/func_020c119c.c 1.2/sp2p3
 src/auto/func_020c8808.c 1.2/sp2p3
 src/auto/func_020dc314.c 1.2/sp2p3 -nointerworking
 src/auto/func_020ed874.c 1.2/sp2p3
+src/auto/func_0202bba8.c 1.2/sp2p3
+src/auto/func_0202e3e8.c 1.2/sp2p3
+src/auto/func_0203eed4.c 1.2/sp2p3
+src/auto/func_020425c4.c 1.2/sp2p3
+src/auto/func_02046668.c 1.2/sp2p3
+src/auto/func_02058d70.c 1.2/sp2p3
+src/auto/func_0205f114.c 1.2/sp2p3
+src/auto/func_02062624.c 1.2/sp2p3
+src/auto/func_02085df8.c 1.2/sp2p3
+src/auto/func_020990f4.c 1.2/sp2p3
+src/auto/func_0209ac38.c 1.2/sp2p3
+src/auto/func_020a27c0.c 1.2/sp2p3
+src/auto/func_020a8774.c 1.2/sp2p3
+src/auto/func_020a8acc.c 1.2/sp2p3
+src/auto/func_020bf658.c 1.2/sp2p3
+src/auto/func_020cc1f8.c 1.2/sp2p3
+src/auto/func_020d0974.c 1.2/sp2p3 -thumb
+src/auto/func_020db4d0.c 1.2/sp2p3 -nointerworking
+src/auto/func_ov010_02149e7c.c 1.2/sp2p3
