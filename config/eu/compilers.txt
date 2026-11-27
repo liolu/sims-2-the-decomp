@@ -3169,3 +3169,21 @@ src/auto/func_020bc598.c 1.2/sp2p3
 src/auto/func_020c25f4.cpp 1.2/sp2p3
 src/auto/func_020c652c.c 1.2/sp2p3
 src/auto/func_020d0774.c 1.2/sp2p3 -thumb
+src/auto/func_02005620.c 1.2/sp2p3
+src/auto/func_0200591c.c 1.2/sp2p3
+src/auto/func_020113f8.c 1.2/sp2p3
+src/auto/func_02019db8.c 1.2/sp2p3
+src/auto/func_02021cfc.c 1.2/sp2p3
+src/auto/func_02025c80.c 1.2/sp2p3
+src/auto/func_02037520.c 1.2/sp2p3
+src/auto/func_02049fc0.c 1.2/sp2p3
+src/auto/func_0204e3dc.c 1.2/sp2p3
+src/auto/func_02052ea0.c 1.2/sp2p3
+src/auto/func_02075370.c 1.2/sp2p3
+src/auto/func_0207c134.c 1.2/sp2p3
+src/auto/func_0208df00.c 1.2/sp2p3
+src/auto/func_0208f73c.cpp 1.2/sp2p3
+src/auto/func_02092c7c.c 1.2/sp2p3
+src/auto/func_020c53dc.c 1.2/sp2p3
+src/auto/func_020d1040.c 1.2/sp2p3 -thumb
+src/auto/func_020d2bdc.c 1.2/sp2p3 -thumb
