@@ -3187,3 +3187,14 @@ src/auto/func_02092c7c.c 1.2/sp2p3
 src/auto/func_020c53dc.c 1.2/sp2p3
 src/auto/func_020d1040.c 1.2/sp2p3 -thumb
 src/auto/func_020d2bdc.c 1.2/sp2p3 -thumb
+src/auto/func_0200498c.c 1.2/sp2p3
+src/auto/func_0203e3a0.c 1.2/sp2p3
+src/auto/func_02067698.c 1.2/sp2p3
+src/auto/func_02071a90.cpp 1.2/sp2p3
+src/auto/func_02092004.c 1.2/sp2p3
+src/auto/func_02095cac.c 1.2/sp2p3
+src/auto/func_020a746c.c 1.2/sp2p3
+src/auto/func_020c4fe4.c 1.2/sp2p3
+src/auto/func_020c5f2c.c 1.2/sp2p3
+src/auto/func_02107a2c.c 1.2/sp2p3
+src/auto/func_02112330.c 1.2/sp2p3
