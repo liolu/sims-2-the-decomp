@@ -3101,3 +3101,8 @@ src/auto/func_020843e8.c 1.2/sp2p3
 src/auto/func_02089420.cpp 1.2/sp2p3
 src/auto/func_0203c1c0.cpp 1.2/sp2p3
 src/auto/func_02040dd4.c 1.2/sp2p3
+src/auto/func_02041fa4.c 1.2/sp2p3
+src/auto/func_0205ddfc.c 1.2/sp2p3
+src/auto/func_020659cc.c 1.2/sp2p3
+src/auto/func_020778ac.c 1.2/sp2p3
+src/auto/func_020d72dc.c 1.2/sp2p3

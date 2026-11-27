@@ -25929,3 +25929,23 @@ src/auto/func_0203c1c0.cpp:
 src/auto/func_02040dd4.c:
     complete
     .text       start:0x02040dd4 end:0x02040e50
+
+src/auto/func_02041fa4.c:
+    complete
+    .text       start:0x02041fa4 end:0x020420a4
+
+src/auto/func_0205ddfc.c:
+    complete
+    .text       start:0x0205ddfc end:0x0205df0c
+
+src/auto/func_020659cc.c:
+    complete
+    .text       start:0x020659cc end:0x02065ae0
+
+src/auto/func_020778ac.c:
+    complete
+    .text       start:0x020778ac end:0x02077978
+
+src/auto/func_020d72dc.c:
+    complete
+    .text       start:0x020d72dc end:0x020d7388
