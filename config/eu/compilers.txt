@@ -3149,3 +3149,23 @@ src/auto/func_020cc1f8.c 1.2/sp2p3
 src/auto/func_020d0974.c 1.2/sp2p3 -thumb
 src/auto/func_020db4d0.c 1.2/sp2p3 -nointerworking
 src/auto/func_ov010_02149e7c.c 1.2/sp2p3
+src/auto/func_0200b9d0.c 1.2/sp2p3
+src/auto/func_0200c9f4.c 1.2/sp2p3
+src/auto/func_02017454.cpp 1.2/sp2p3
+src/auto/func_02017f6c.cpp 1.2/sp2p3
+src/auto/func_02027e50.c 1.2/sp2p3
+src/auto/func_0203734c.c 1.2/sp2p3
+src/auto/func_02041a08.c 1.2/sp2p3
+src/auto/func_02048d84.c 1.2/sp2p3
+src/auto/func_02049cdc.c 1.2/sp2p3
+src/auto/func_0204b8a8.c 1.2/sp2p3
+src/auto/func_02078cb0.c 1.2/sp2p3
+src/auto/func_020877e4.cpp 1.2/sp2p3
+src/auto/func_02099e70.c 1.2/sp2p3
+src/auto/func_0209a840.c 1.2/sp2p3
+src/auto/func_020a7e8c.c 1.2/sp2p3
+src/auto/func_020bb50c.c 1.2/sp2p3
+src/auto/func_020bc598.c 1.2/sp2p3
+src/auto/func_020c25f4.cpp 1.2/sp2p3
+src/auto/func_020c652c.c 1.2/sp2p3
+src/auto/func_020d0774.c 1.2/sp2p3 -thumb
