@@ -44,8 +44,8 @@ struct OSiAlarm {
 };
 extern void func_020fb524(void *arg);
 typedef u32 OSIrqMask;
-extern void func_020f9508(u32 timerNo, void (*callback)(void *), void *arg);
-extern OSIrqMask func_020f949c(OSIrqMask mask);
+extern void _Z24SetTimerOverflowCallbackiPFviEi(u32 timerNo, void (*callback)(void *), void *arg);
+extern OSIrqMask _Z24EnableSpecificInterruptsj(OSIrqMask mask);
 #pragma thumb off
 void func_020fb86c(OSAlarm *alarm) {
     OSTick tick = func_020fb350();
@@ -54,7 +54,7 @@ void func_020fb86c(OSAlarm *alarm) {
 
     s64 delta = (s64) (alarm->fire - tick);
 
-    func_020f9508(OS_TIMER_1, func_020fb524, ((void *) 0));
+    _Z24SetTimerOverflowCallbackiPFviEi(OS_TIMER_1, func_020fb524, ((void *) 0));
 
     u16 timerCount;
     if (delta < 0) {
@@ -68,5 +68,5 @@ void func_020fb86c(OSAlarm *alarm) {
     OS_SetTimerCount((OSTimer) OS_TIMER_1, timerCount);
     OS_SetTimerControl(OS_TIMER_1, (u16) (0x0080 | 0x0040 | OS_TIMER_PRESCALER_64));
 
-    (void) func_020f949c((1UL << 4));
+    (void) _Z24EnableSpecificInterruptsj((1UL << 4));
 }

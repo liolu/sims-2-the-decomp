@@ -20,14 +20,14 @@ struct VA {
     virtual void f15();
 };
 
-extern "C" s32 func_0210f5c4(s32 a, s32 b);
+extern "C" s32 _s32_div_f(s32 a, s32 b);
 extern "C" void func_02046830(void *arg0);
 
 extern "C" void func_02046070(VA *arg0) {
     u32 i;
     u32 cnt;
 
-    cnt = (u8) func_0210f5c4(*(u16 *) ((u8 *) arg0 + 0x28), ((u8 *) arg0)[0x32]);
+    cnt = (u8) _s32_div_f(*(u16 *) ((u8 *) arg0 + 0x28), ((u8 *) arg0)[0x32]);
     i   = 0;
     if (cnt != 0) {
         do {

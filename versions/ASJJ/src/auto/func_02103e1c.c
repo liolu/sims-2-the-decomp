@@ -9,7 +9,7 @@ void func_020fa948(s32, s32);
 void func_020fa9b0(s32, s32);
 void func_020f962c(s32, void *);
 void func_020f9420(s32);
-void func_020f949c(u32);
+void _Z24EnableSpecificInterruptsj(u32);
 void func_020fa9a4(void);
 void func_020fb9a0(s32);
 void func_02103fe4(void);
@@ -75,7 +75,7 @@ s32 func_02103e1c(u8 *arg0) {
         func_020fa9b0(*(s32 *) (g + 0x1c), *(s32 *) (g + 0x20));
         func_020f962c(0x80000, (void *) &func_02103f70);
         func_020f9420(0x80000);
-        func_020f949c(0x80000);
+        _Z24EnableSpecificInterruptsj(0x80000);
         func_020fa9a4();
         func_020fb9a0(r4);
         func_02103fe4();
