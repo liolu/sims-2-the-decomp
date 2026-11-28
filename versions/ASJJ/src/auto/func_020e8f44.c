@@ -1,0 +1,86 @@
+#include "m2c.h"
+
+struct S {
+    u32 unk_00;
+    u32 unk_04;
+    u32 unk_08;
+    u32 unk_0c;
+    u32 unk_10;
+    u32 unk_14;
+    u32 unk_18;
+    u32 unk_1c;
+    u32 unk_20;
+    u32 unk_24;
+    u32 unk_28;
+    u32 unk_2c;
+    u32 unk_30;
+    u32 unk_34;
+    u32 unk_38;
+    u32 unk_3c;
+    u32 unk_40;
+    u32 unk_44;
+    u32 unk_48;
+    u32 unk_4c;
+    u32 unk_50;
+    u32 unk_54;
+    u32 unk_58;
+    u32 unk_5c;
+    u32 unk_60;
+    u32 unk_64;
+    u32 unk_68;
+    u32 unk_6c;
+    u32 unk_70;
+    u32 unk_74;
+};
+
+void func_020e8f44(struct S *s) {
+    u32 v08 = s->unk_08;
+    u32 v0c = s->unk_0c;
+    u32 v10 = s->unk_10;
+    u32 v14 = s->unk_14;
+    u32 v18 = s->unk_18;
+    u32 v1c = s->unk_1c;
+    u32 v20 = s->unk_20;
+    u32 v24 = s->unk_24;
+    u32 v28 = s->unk_28;
+    u32 v2c = s->unk_2c;
+    u32 v38 = s->unk_38;
+    u32 v3c = s->unk_3c;
+    u32 v40 = s->unk_40;
+    u32 v44 = s->unk_44;
+    u32 v50 = s->unk_50;
+    u32 v54 = s->unk_54;
+    u32 v58 = s->unk_58;
+    u32 v5c = s->unk_5c;
+    u32 v60 = s->unk_60;
+    u32 v64 = s->unk_64;
+    u32 v68 = s->unk_68;
+    u32 v6c = s->unk_6c;
+    u32 v70 = s->unk_70;
+    u32 v74 = s->unk_74;
+
+    s->unk_08 = v40;
+    s->unk_0c = v44;
+    s->unk_10 = v20;
+    s->unk_14 = v24;
+    s->unk_18 = v60;
+    s->unk_1c = v64;
+    s->unk_20 = v10;
+    s->unk_24 = v14;
+    s->unk_28 = v50;
+    s->unk_2c = v54;
+    s->unk_38 = v70;
+    s->unk_3c = v74;
+    s->unk_40 = v08;
+    s->unk_44 = v0c;
+    s->unk_50 = v28;
+    s->unk_54 = v2c;
+    s->unk_58 = v68;
+    s->unk_5c = v6c;
+    s->unk_60 = v18;
+    s->unk_64 = v1c;
+    s->unk_68 = v58;
+    s->unk_6c = v5c;
+    s->unk_70 = v38;
+    s->unk_74 = v3c;
+}

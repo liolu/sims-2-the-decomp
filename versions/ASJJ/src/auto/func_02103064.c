@@ -1,0 +1,132 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+/* CARDi_InitCommon from https://github.com/aricloverEXTRA/PartnersInTimeDECOMP src/nitro/card/card_common.c (license: none),
+ * reused by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef volatile u16 vu16;
+typedef signed int s32;
+typedef unsigned int u32;
+typedef u16 OsThreadQueue;
+typedef struct OsMutex OsMutex;
+typedef struct OsContext {
+    u32 cpsr;
+    u32 registers[13];
+    u32 sp;
+    u32 lr;
+    u32 pc;
+    u32 supervisor_sp;
+    u32 coprocessor[7];
+} OsContext;
+typedef struct OsThread {
+    OsContext context;
+    u32 state;
+    struct OsThread *next;
+    u32 id;
+    u32 priority;
+    u32 unknown74;
+    OsMutex *waiting_mutex;
+    OsMutex *mutex_head;
+    OsMutex *mutex_tail;
+    u32 *stack_bottom;
+    u32 *stack_top;
+    u32 stack_offset;
+    OsThreadQueue join_waiters;
+    u16 padding92;
+} OsThread;
+struct OsMutex {
+    OsThreadQueue queue;
+    u16 padding02;
+    OsThread *owner;
+    s32 count;
+    OsMutex *previous;
+    OsMutex *next;
+};
+typedef void (*CardCallback)(void *argument);
+typedef struct CardCommand {
+    u32 result;
+    u32 backup_type;
+    u32 rom_id;
+    u32 source;
+    u32 destination;
+    u32 length;
+    u32 total_size;
+    u32 sector_size;
+    u32 page_size;
+    u32 address_width;
+    u32 write_delay;
+    u32 erase_delay;
+    u32 erase_timeout;
+    u32 total_erase_delay;
+    u32 total_erase_timeout;
+    u32 program_timeout;
+} CardCommand;
+typedef struct CardWork CardWork;
+typedef void (*CardTask)(CardWork *work);
+struct CardWork {
+    CardCommand *command;
+    u32 reserved04;
+    volatile s32 lock_owner;
+    volatile s32 lock_count;
+    OsThreadQueue lock_queue;
+    u16 padding12;
+    u32 resource;
+    const u8 *volatile source;
+    u8 *volatile destination;
+    volatile u32 length;
+    int dma;
+    CardCallback callback;
+    void *argument;
+    CardTask task;
+    volatile u32 flags;
+    volatile u32 priority;
+    OsThread thread;
+    OsThread *volatile current_thread;
+    OsThreadQueue task_queue;
+    u16 paddingd6;
+    u32 reservedd8[2];
+    u8 buffer[256];
+};
+extern CardWork data_02147d80;
+extern CardCommand data_02147be0;
+extern u8 data_02147c20[];
+extern u32 data_02148360;
+extern void func_02103064(void);
+extern void func_02103018(int enabled);
+extern void func_02103348(void *argument);
+extern void func_0210339c(u32 tag, u32 data, int error);
+extern void func_020fc5bc(u32 value, void *destination, u32 size);
+extern void func_020fc75c(const void *source, void *destination, u32 size);
+extern void func_020fa980(const void *address, u32 size);
+extern u32 func_020fb118(void);
+extern void func_020fb110(u32 region);
+extern void func_020f9d58(OsThread *thread);
+extern void func_020f9ec4(OsThread *thread, void (*entry)(void *), void *argument, void *stack, u32 stack_size, u32 priority);
+extern void func_020fdc04(u32 tag, void (*callback)(u32, u32, int));
+void func_0210339c(u32 tag, u32 data, int error);
+void func_02103348(void *argument);
+void func_02103064(void) {
+    CardWork *work = &data_02147d80;
+    u32 region;
+    volatile u32 zero;
+    work->lock_owner = -3;
+    work->lock_count = 0;
+    work->resource   = 0;
+    work->command    = &data_02147be0;
+    zero             = 0;
+    func_020fc5bc(zero, &data_02147be0, 64);
+    func_020fa980(&data_02147be0, 64);
+    region = func_020fb118();
+    func_020fb110(0);
+    func_020fc75c(*(vu16 *) 0x027FFC40 == 2 ? (void *) 0x023FE940 : (void *) 0x027FFE00, data_02147c20, 0x160);
+    func_020fb110(region);
+    work->lock_queue = 0;
+    work->task_queue = 0;
+    work->priority   = 4;
+    func_020f9ec4(&work->thread, func_02103348, 0, &data_02148360, 1024, work->priority);
+    func_020f9d58(&work->thread);
+    func_020fdc04(11, func_0210339c);
+    if (*(vu16 *) 0x027FFC40 != 2) {
+        func_02103018(1);
+    }
+}
+void func_02103018(int enabled);
