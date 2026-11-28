@@ -1,0 +1,23 @@
+version: Original
+title:
+  japanese: |-
+    ザ・シムズ2
+    Electronic Arts Inc.
+  english: |-
+    ザ・シムズ2
+    Electronic Arts Inc.
+  french: |-
+    ザ・シムズ2
+    Electronic Arts Inc.
+  german: |-
+    ザ・シムズ2
+    Electronic Arts Inc.
+  italian: |-
+    ザ・シムズ2
+    Electronic Arts Inc.
+  spanish: |-
+    ザ・シムズ2
+    Electronic Arts Inc.
+images:
+  bitmap_path: bitmap.png
+  palette_path: palette.png

@@ -1,0 +1,2 @@
+# Source files built with another compiler than game.toml mwcc_version
+# <source path> <mwccarm version> [extra flags]

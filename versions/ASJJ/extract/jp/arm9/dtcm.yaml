@@ -1,0 +1,4 @@
+base_address: 41811968
+code_size: 8416
+bss_size: 0
+kind: Dtcm
