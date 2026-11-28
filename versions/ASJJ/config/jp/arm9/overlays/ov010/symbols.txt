@@ -120,7 +120,6 @@ data_ov010_02152788 kind:data(any) addr:0x02152788
 data_ov010_02152798 kind:data(any) addr:0x02152798
 data_ov010_0215279c kind:data(any) addr:0x0215279c
 data_ov010_021527c8 kind:data(any) addr:0x021527c8
-data_ov010_021527c9 kind:data(any) addr:0x021527c9
 data_ov010_021527f8 kind:data(any) addr:0x021527f8
 data_ov010_02152830 kind:data(any) addr:0x02152830
 data_ov010_0215286c kind:data(any) addr:0x0215286c

@@ -28,7 +28,6 @@ data_ov008_0214aae0 kind:data(any) addr:0x0214aae0
 data_ov008_0214aae4 kind:data(any) addr:0x0214aae4 ambiguous
 data_ov008_0214aaf0 kind:data(any) addr:0x0214aaf0
 __sinit_ov008_0214ab30 kind:function(arm,size=0x88) addr:0x0214ab30
-.p__sinit_ov008_0214ab30 kind:data(word) addr:0x0214abb8
 data_ov008_0214abc0 kind:data(any) addr:0x0214abc0
 data_ov008_0214abcc kind:data(any) addr:0x0214abcc
 data_ov008_0214abd8 kind:data(any) addr:0x0214abd8
@@ -58,3 +57,4 @@ data_ov008_0214ad48 kind:bss addr:0x0214ad48
 data_ov008_0214ad4c kind:bss addr:0x0214ad4c
 data_ov008_0214ad50 kind:bss addr:0x0214ad50
 data_ov008_0214ad58 kind:bss addr:0x0214ad58
+data_ov008_0214abb8 kind:data(any) addr:0x0214abb8

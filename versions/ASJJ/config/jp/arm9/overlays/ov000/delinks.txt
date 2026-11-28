@@ -4,3 +4,91 @@
     .ctor       start:0x0214e668 end:0x0214e66c kind:rodata align:4
     .data       start:0x0214e680 end:0x0214e7e0 kind:data align:32
     .bss        start:0x0214e7e0 end:0x0214e7e0 kind:bss align:32
+
+src/data/ov000_data_0214e680.c:
+    complete
+    .data       start:0x0214e680 end:0x0214e690
+
+src/data/ov000_data_0214e690.c:
+    complete
+    .data       start:0x0214e690 end:0x0214e69c
+
+src/data/ov000_data_0214e69c.c:
+    complete
+    .data       start:0x0214e69c end:0x0214e6ac
+
+src/data/ov000_data_0214e6ac.c:
+    complete
+    .data       start:0x0214e6ac end:0x0214e6e4
+
+src/data/ov000_data_0214e6e4.c:
+    complete
+    .data       start:0x0214e6e4 end:0x0214e7a0
+
+src/data/ov000_data_0214e7a0.c:
+    complete
+    .data       start:0x0214e7a0 end:0x0214e7b0
+
+src/data/ov000_data_0214e7b0.c:
+    complete
+    .data       start:0x0214e7b0 end:0x0214e7c8
+
+src/data/ov000_data_0214e7c8.c:
+    complete
+    .data       start:0x0214e7c8 end:0x0214e7e0
+
+src/data/ov000_rodata_0214e484.c:
+    complete
+    .rodata     start:0x0214e484 end:0x0214e488
+
+src/data/ov000_rodata_0214e488.c:
+    complete
+    .rodata     start:0x0214e488 end:0x0214e48c
+
+src/data/ov000_rodata_0214e48c.c:
+    complete
+    .rodata     start:0x0214e48c end:0x0214e490
+
+src/data/ov000_rodata_0214e490.c:
+    complete
+    .rodata     start:0x0214e490 end:0x0214e494
+
+src/data/ov000_rodata_0214e494.c:
+    complete
+    .rodata     start:0x0214e494 end:0x0214e498
+
+src/data/ov000_rodata_0214e498.c:
+    complete
+    .rodata     start:0x0214e498 end:0x0214e49c
+
+src/data/ov000_rodata_0214e49c.c:
+    complete
+    .rodata     start:0x0214e49c end:0x0214e4a0
+
+src/data/ov000_rodata_0214e4a0.c:
+    complete
+    .rodata     start:0x0214e4a0 end:0x0214e4a4
+
+src/data/ov000_rodata_0214e4a4.c:
+    complete
+    .rodata     start:0x0214e4a4 end:0x0214e4ac
+
+src/data/ov000_rodata_0214e4ac.c:
+    complete
+    .rodata     start:0x0214e4ac end:0x0214e4b4
+
+src/data/ov000_rodata_0214e4b4.c:
+    complete
+    .rodata     start:0x0214e4b4 end:0x0214e4bc
+
+src/data/ov000_rodata_0214e4bc.c:
+    complete
+    .rodata     start:0x0214e4bc end:0x0214e4dc
+
+src/data/ov000_rodata_0214e4dc.c:
+    complete
+    .rodata     start:0x0214e4dc end:0x0214e5f8
+
+src/data/ov000_ctor_0214e668.c:
+    complete
+    .ctor       start:0x0214e668 end:0x0214e66c
