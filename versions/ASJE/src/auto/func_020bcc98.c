@@ -23,7 +23,7 @@ void func_020f6404(void);
 void func_020f0b0c(void *a);
 void func_020f982c(s32 a);
 void func_020ecf58(void *a, s32 b);
-void func_020f9874(s32 a);
+void _Z24EnableSpecificInterruptsj(s32 a);
 void func_020bc930(void *a, s32 b, s32 c);
 void func_020f4f40(void *a);
 void func_020eea5c(void *a);
@@ -63,7 +63,7 @@ void func_020bcc98(u8 *arg0) {
     func_020f0b0c(&data_027e11a0);
     func_020f982c(1);
     func_020ecf58(arg0 + 0x600, 0x18);
-    func_020f9874(1);
+    _Z24EnableSpecificInterruptsj(1);
     func_020bc930(arg0, 4, 0);
     func_020f4f40(&data_027e1ec8);
     data_027e1e0c.f = data_027e1e0c.f & 0xFFFFFF5B;

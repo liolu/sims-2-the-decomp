@@ -1,9 +1,9 @@
 /* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
-/* func_0210d8f4 from https://github.com/kh-recoded-decomp/kh-recoded-decomp eu/src/asm_stubs/calls/func_0210d8f4.c (license:
+/* _dfix from https://github.com/kh-recoded-decomp/kh-recoded-decomp eu/src/asm_stubs/calls/_dfix.c (license:
  * MIT), reused by tools/donor_match.py */
 // clang-format off
 #pragma ipa file
-asm int func_0210d8f4(double value)
+asm int _dfix(double value)
 {
     bic r3, r1, #0x80000000
     ldr r2, =0x41e

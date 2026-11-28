@@ -2402,7 +2402,7 @@ src/auto/func_020f96ac.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_020f9758.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_020f97f8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_020f982c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
-src/auto/func_020f9874.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_Z24EnableSpecificInterruptsj.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_020f98ac.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_020f992c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_020f9978.c 1.2/sp2p3
@@ -2775,11 +2775,11 @@ src/auto/func_0210d338.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_0210d3ec.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_0210d45c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_0210d7f0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
-src/auto/func_0210d8f4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/_dfix.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210d940.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210d9cc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210da08.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
-src/auto/func_0210da48.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_dmul.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_0210f0f4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210f178.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0210f1ac.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
@@ -3100,3 +3100,100 @@ src/auto/func_ov014_02149a50.c 1.2/sp2p3
 src/auto/func_01ff921c.c 1.2/sp2p3
 src/auto/func_01ff92a8.c 1.2/sp2p3
 src/auto/func_01ff9620.c 1.2/sp2p3
+src/donor/func_02017f6c.cpp 1.2/sp2p3
+src/donor/func_02018af8.cpp 1.2/sp2p3
+src/donor/func_02019100.cpp 1.2/sp2p3
+src/donor/func_02019618.cpp 1.2/sp2p3
+src/donor/func_02019c1c.cpp 1.2/sp2p3
+src/donor/func_0201c714.cpp 1.2/sp2p3
+src/donor/func_0201cb48.cpp 1.2/sp2p3
+src/donor/func_0201cf8c.cpp 1.2/sp2p3
+src/donor/func_0202484c.cpp 1.2/sp2p3
+src/donor/func_02026b00.cpp 1.2/sp2p3
+src/donor/func_02027200.cpp 1.2/sp2p3
+src/donor/func_0202c080.cpp 1.2/sp2p3
+src/donor/func_0202def4.cpp 1.2/sp2p3
+src/donor/func_02030c1c.cpp 1.2/sp2p3
+src/donor/func_0203f800.cpp 1.2/sp2p3
+src/donor/func_0203f840.cpp 1.2/sp2p3
+src/donor/func_0203fd74.cpp 1.2/sp2p3
+src/donor/func_02040ba4.cpp 1.2/sp2p3
+src/donor/func_02041d40.cpp 1.2/sp2p3
+src/donor/func_02045924.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_020460a8.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_020460dc.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_02046118.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_0204ad20.cpp 1.2/sp2p3
+src/donor/func_0204b51c.cpp 1.2/sp2p3
+src/donor/func_0204c52c.cpp 1.2/sp2p3
+src/donor/func_02056354.cpp 1.2/sp2p3
+src/donor/func_02066bb8.cpp 1.2/sp2p3
+src/donor/func_0206a210.cpp 1.2/sp2p3
+src/donor/func_0206b4bc.cpp 1.2/sp2p3
+src/donor/func_0206be24.cpp 1.2/sp2p3
+src/donor/func_0206c05c.cpp 1.2/sp2p3
+src/donor/func_0206e47c.cpp 1.2/sp2p3
+src/donor/func_0206fa90.cpp 1.2/sp2p3
+src/donor/func_02071a18.cpp 1.2/sp2p3
+src/donor/func_02072298.cpp 1.2/sp2p3
+src/donor/func_0208242c.cpp 1.2/sp2p3
+src/donor/func_020846e4.cpp 1.2/sp2p3 -pragma "opt_common_subs off"
+src/donor/func_020853ac.cpp 1.2/sp2p3
+src/donor/func_02085cc4.cpp 1.2/sp2p3
+src/donor/func_0208726c.cpp 1.2/sp2p3
+src/donor/func_0208776c.cpp 1.2/sp2p3
+src/donor/func_02087b0c.cpp 1.2/sp2p3
+src/donor/func_0208821c.cpp 1.2/sp2p3
+src/donor/func_02088598.cpp 1.2/sp2p3
+src/donor/func_0208e6cc.cpp 1.2/sp2p3
+src/donor/func_0208e960.cpp 1.2/sp2p3
+src/donor/func_0208eb9c.cpp 1.2/sp2p3
+src/donor/func_02092ee8.cpp 1.2/sp2p3
+src/donor/func_02094bc0.cpp 1.2/sp2p3
+src/donor/func_0209b0c8.c 1.2/sp2p3
+src/donor/func_020acf1c.cpp 1.2/sp2p3
+src/donor/func_020ba038.cpp 1.2/sp2p3
+src/donor/func_020be130.cpp 1.2/sp2p3
+src/donor/func_020c0d28.cpp 1.2/sp2p3
+src/donor/func_020c0dac.cpp 1.2/sp2p3
+src/donor/func_020c46d0.cpp 1.2/sp2p3
+src/donor/func_020c8c30.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_020d8088.c 1.2/sp2p3
+src/donor/func_020d9f0c.cpp 1.2/sp2p3
+src/donor/func_020de568.c 1.2/sp2p3 -nointerworking
+src/donor/func_020df7d0.c 1.2/sp3
+src/donor/func_020ed37c.c 1.2/sp2p3
+src/donor/func_020f3aa0.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_020f3e98.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_020f6830.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020f98e0.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_020fa880.c 1.2/sp2p3
+src/donor/func_020fa934.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020fa9e0.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020fba9c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_021078f0.c 1.2/sp2p3
+src/donor/func_0210970c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_021099f4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_0210a560.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_0210ae18.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_0210bdbc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_0210c078.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_021104e8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_021104fc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02110510.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02110528.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02110560.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02111a40.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02111aac.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02111b04.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/donor/func_02111b3c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02111d4c.c 2.0/sp1p5
+src/donor/func_02112540.c 1.2/sp2p3
+src/donor/func_0211256c.c 1.2/sp2p3
+src/donor/func_02112590.c 1.2/sp2p3
+src/donor/func_021125b4.c 1.2/sp2p3
+src/donor/func_021125e0.c 1.2/sp2p3
+src/donor/func_02112604.c 1.2/sp2p3
+src/donor/func_02112648.c 2.0/sp1p5
+src/donor/func_02112658.c 1.2/sp2p3
+src/donor/func_0211267c.c 2.0/sp1p5

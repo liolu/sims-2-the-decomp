@@ -1,7 +1,7 @@
 /* _deq from projets/resident-evil-deadly-silence/src/auto/_deq.c (same code in another game of this workspace), reused by
  * tools/donor_match.py */
 // clang-format off
-asm void func_0210e834(void) {
+asm void _deq(void) {
     mov ip, #0x200000
     cmn ip, r1, lsl #0x1
     bhs L_0210e9c4

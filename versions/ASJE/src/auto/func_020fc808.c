@@ -21,7 +21,7 @@ typedef struct {
 extern UnkGxCmdDmaState data_02146204;
 extern void func_020f9a04(u32 mask, UnkIrqHandler handler);
 extern UnkIrqHandler func_020f9978(u32 mask);
-extern void func_020f9874(u32 mask);
+extern void _Z24EnableSpecificInterruptsj(u32 mask);
 extern void func_020fc020(u32 dmaNo, u32 src, u32 size, u32 dir);
 extern void func_020fc740(void);
 static inline void UnkCallCallback(UnkDmaCallback callback, void *arg) {
@@ -54,7 +54,7 @@ void func_020fc808(u32 dmaNo, const void *src, u32 size, UnkDmaCallback callback
     data_02146204.fifoIntrHandler = func_020f9978(0x200000);
     (*(vu32 *) 0x04000600)        = ((*(vu32 *) 0x04000600) & ~0xc0000000) | 0x40000000;
     func_020f9a04(0x200000, func_020fc740);
-    func_020f9874(0x200000);
+    _Z24EnableSpecificInterruptsj(0x200000);
     func_020fc740();
     func_020fbd78(e);
 }

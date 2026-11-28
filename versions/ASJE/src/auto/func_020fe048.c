@@ -11,7 +11,7 @@ extern u32 func_020fbd64(void);
 extern u32 func_020fbd78(u32 state);
 extern void func_020f97f8(u32 mask);
 extern void func_020f9a04(u32 mask, void *handler);
-extern u32 func_020f9874(u32 mask);
+extern u32 _Z24EnableSpecificInterruptsj(u32 mask);
 typedef void (*PxiCallback)(u32 tag, u32 data, BOOL err);
 extern void func_020fe048(void);
 extern void func_020fdddc(void);
@@ -37,7 +37,7 @@ void func_020fe048(void) {
         (*(vu16 *) 0x04000184) = 0xc408;
         func_020f97f8(0x40000);
         func_020f9a04(0x40000, func_020fdddc);
-        func_020f9874(0x40000);
+        _Z24EnableSpecificInterruptsj(0x40000);
 
         for (i = 0;; i++) {
             s32 timeout;

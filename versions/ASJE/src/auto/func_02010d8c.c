@@ -6,7 +6,7 @@ extern u8 data_02117ca8;
 extern u8 data_0212fb88;
 extern u8 *volatile data_0213e440;
 
-void *func_0200b8a0(void *, s32);
+void *_ZN12ValueManager7GetByIdEl(void *, s32);
 s32 func_020d54c8(s32);
 s32 func_020d5544(s32, void *);
 s32 func_0209b2b8(void *, s32);
@@ -44,7 +44,7 @@ void func_02010d8c(u8 *arg0) {
     ten  = 0x10;
     sp14 = -1;
     do {
-        ent = (u8 *) func_0200b8a0(arg0 + 0x24, i);
+        ent = (u8 *) _ZN12ValueManager7GetByIdEl(arg0 + 0x24, i);
         if (ent[0x15] != 0) {
             r6 = sp4;
             switch (ent[0x15]) {

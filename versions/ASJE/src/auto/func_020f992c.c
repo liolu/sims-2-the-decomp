@@ -9,12 +9,12 @@ typedef struct UnkIrqCallbackInfo {
 } UnkIrqCallbackInfo;
 extern UnkIrqCallbackInfo data_02145e40[8];
 extern void func_020f992c(u32 dmaNo, void (*func)(void *), void *arg);
-extern u32 func_020f9874(u32 mask);
+extern u32 _Z24EnableSpecificInterruptsj(u32 mask);
 extern UnkIrqCallbackInfo data_02145e40[8];
 void func_020f992c(u32 dmaNo, void (*func)(void *), void *arg) {
     u32 mask                    = 1 << (dmaNo + 8);
     data_02145e40[dmaNo].func   = func;
     data_02145e40[dmaNo].arg    = arg;
-    data_02145e40[dmaNo].enable = func_020f9874(mask) & mask;
+    data_02145e40[dmaNo].enable = _Z24EnableSpecificInterruptsj(mask) & mask;
 }
-u32 func_020f9874(u32 mask);
+u32 _Z24EnableSpecificInterruptsj(u32 mask);

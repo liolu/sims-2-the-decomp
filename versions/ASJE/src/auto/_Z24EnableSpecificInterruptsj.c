@@ -7,7 +7,7 @@ typedef int s32;
 typedef volatile u32 vu32;
 typedef volatile u16 vu16;
 typedef s32 BOOL;
-extern u32 func_020f9874(u32 mask);
+extern u32 _Z24EnableSpecificInterruptsj(u32 mask);
 static inline BOOL OS_DisableIME(void) {
     u16 prev               = (*(vu16 *) 0x04000208);
     (*(vu16 *) 0x04000208) = 0;
@@ -18,7 +18,7 @@ static inline BOOL OS_RestoreIME(BOOL enable) {
     (*(vu16 *) 0x04000208) = (vu16) enable;
     return (BOOL) prev;
 }
-u32 func_020f9874(u32 mask) {
+u32 _Z24EnableSpecificInterruptsj(u32 mask) {
     BOOL ime               = OS_DisableIME();
     u32 prev               = (*(vu32 *) 0x04000210);
     (*(vu32 *) 0x04000210) = prev | mask;

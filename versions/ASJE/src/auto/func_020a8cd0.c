@@ -8,7 +8,7 @@ typedef struct {
 void func_020d4f50(void);
 void func_020d5310(s32);
 void func_020d048c(s32);
-s32 func_0210f99c(s32, s32);
+s32 _s32_div_f(s32, s32);
 void func_020a9310(void *, s32);
 extern u8 data_02142398;
 
@@ -40,7 +40,7 @@ void func_020a8cd0(void *arg0) {
     }
     *(u8 *) (*(u8 **) (a + 0x99c) + 0x26) = 0x40;
     *(u8 *) (a + 0xA52)                   = *(u8 *) (a + 0xA52) & ~0x10;
-    *(s32 *) (a + 0x8BC)                  = func_0210f99c(0x9C4, *(u8 *) (*(u8 **) (a + 0x99C) + 0x2D));
+    *(s32 *) (a + 0x8BC)                  = _s32_div_f(0x9C4, *(u8 *) (*(u8 **) (a + 0x99C) + 0x2D));
     for (j = 0, m = 0; j < 0x20; j++) {
         *(u8 *) (a + 0x8EE + j) = *(u8 *) (*(u8 **) (a + 0x99C) + 0x42 + m);
         m += 0x24;
