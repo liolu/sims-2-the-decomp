@@ -29,4 +29,9 @@ ninja
 python tools/match.py status
 ```
 
+## Other regions
+
+The USA (`ASJE`) and Japanese (`ASJJ`, *Hachamecha Hotel Life*) ROMs of the same game are in [`versions/`](versions/README.md),
+each a complete project with its own progress.
+
 Created from the rayman-rr template. See `AGENTS.md` for the rules.

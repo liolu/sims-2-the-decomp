@@ -1,10 +1,8 @@
-# The Sims 2 (ASJE) decompilation (USA)
+# The Sims 2 decompilation (USA, `ASJE`)
 
-Nintendo DS, game code `ASJE`. Matching decompilation with Metrowerks mwccarm (compiler version still to be identified: `python ../../../tools/probe_compiler.py`).
+Nintendo DS, game code `ASJE`. Matching decompilation with Metrowerks mwccarm (compiler version still to be identified: `python tools/probe_compiler.py`).
 
 No game assets in this repository: see `extract/README.md`.
-
-From the root of All-nds-decomp-games:
 
 ## Progress
 
@@ -21,8 +19,10 @@ From the root of All-nds-decomp-games:
 <!-- progress:end -->
 
 ```shell
-python nds.py build sims-2-the-asje
-python nds.py match sims-2-the-asje status
+cd versions/ASJE
+python tools/configure.py usa
+ninja
+python tools/match.py status
 ```
 
-See `CONTRIBUTING.md` at the root of the repository and `AGENTS.md` for the rules.
+Same game as the EU project at the root of this repository (`ASJP`), another region: see `../README.md` and `AGENTS.md`. Functions were first copied from the EU matches (`clone_match.py`), each one checked byte for byte.

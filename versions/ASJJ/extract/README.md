@@ -1,4 +1,4 @@
-This repository does not include any of the game's assets. Put your decrypted base ROM here (`python nds.py rom sims-2-the-asjj <your ROM>` checks it and copies it):
+This repository does not include any of the game's assets. Put your decrypted base ROM here (the SHA1 must match):
 
 | Version | File name | SHA1 |
 |---|---|---|

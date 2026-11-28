@@ -25,3 +25,29 @@ jobs:
         with:
           name: ASJP_report
           path: out/report.json
+
+  # The other regions (versions/<ID>/, see versions/README.md): one report each, named after the game and region
+  regions:
+    name: Report ${{ matrix.name }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { id: ASJE, name: "The Sims 2 (USA)" }
+          - { id: ASJJ, name: "The Sims 2 - Hachamecha Hotel Life (Japan)" }
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Unpack the committed report
+        run: |
+          mkdir -p out
+          f=versions/${{ matrix.id }}/progress/report.json.gz
+          if [ -f "$f" ]; then gunzip -c "$f" > out/report.json; fi
+
+      - name: Upload the report
+        if: hashFiles('out/report.json') != ''
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.name }}_report
+          path: out/report.json

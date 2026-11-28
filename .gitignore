@@ -38,3 +38,22 @@ __pycache__/
 /Modelfile*
 /QWEN.md
 /Rayman-RR-usa-decomp/
+
+# other regions in versions/<ID>/ (zones_chain.sh): same local-only files as the root
+versions/*/dsd*.exe
+versions/*/dsd.pdb
+versions/*/objdiff-cli*
+versions/*/wibo
+versions/*/sjiswrap.exe
+versions/*/m2ctx
+versions/*/compile_commands.json
+versions/*/arm7_bios.bin
+versions/*/tools/m2c/
+versions/*/tools/decomp-permuter/
+versions/*/tools/mwccarm/
+versions/*/zones_chain.log
+versions/*/setup.log
+versions/zones_chain.log
+versions/*.setup.log
+versions/nohup.out
+versions/*/reuse.log
