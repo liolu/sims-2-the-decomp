@@ -119,3 +119,19 @@ src/data/ov002_rodata_0214bc18.c:
 src/data/ov002_rodata_0214bc1a.c:
     complete
     .rodata     start:0x0214bc1a end:0x0214bc1c
+
+src/auto/func_ov002_02149660.c:
+    complete
+    .text       start:0x02149660 end:0x0214967c
+
+src/auto/func_ov002_0214967c.c:
+    complete
+    .text       start:0x0214967c end:0x021496ac
+
+src/auto/func_ov002_021496ac.c:
+    complete
+    .text       start:0x021496ac end:0x02149700
+
+src/auto/func_ov002_0214ae5c.c:
+    complete
+    .text       start:0x0214ae5c end:0x0214b218

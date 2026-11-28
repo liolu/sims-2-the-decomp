@@ -59,3 +59,31 @@ src/data/ov016_data_0214a5c8.c:
 src/data/ov016_rodata_0214a548.c:
     complete
     .rodata     start:0x0214a548 end:0x0214a55c
+
+src/auto/func_ov016_02149660.c:
+    complete
+    .text       start:0x02149660 end:0x0214967c
+
+src/auto/func_ov016_0214967c.c:
+    complete
+    .text       start:0x0214967c end:0x021496ac
+
+src/auto/func_ov016_021496ac.c:
+    complete
+    .text       start:0x021496ac end:0x021496b8
+
+src/auto/func_ov016_021496b8.c:
+    complete
+    .text       start:0x021496b8 end:0x021499f4
+
+src/auto/func_ov016_0214a010.c:
+    complete
+    .text       start:0x0214a010 end:0x0214a0c4
+
+src/auto/func_ov016_0214a0c4.c:
+    complete
+    .text       start:0x0214a0c4 end:0x0214a150
+
+src/auto/func_ov016_0214a150.c:
+    complete
+    .text       start:0x0214a150 end:0x0214a178

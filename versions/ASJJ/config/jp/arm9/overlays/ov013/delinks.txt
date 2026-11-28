@@ -76,3 +76,43 @@ src/data/ov013_rodata_0214a9f4.c:
 src/data/ov013_ctor_0214aa8c.c:
     complete
     .ctor       start:0x0214aa8c end:0x0214aa90
+
+src/auto/func_ov013_02149660.c:
+    complete
+    .text       start:0x02149660 end:0x02149684
+
+src/auto/func_ov013_02149684.c:
+    complete
+    .text       start:0x02149684 end:0x021496b0
+
+src/auto/func_ov013_02149f74.c:
+    complete
+    .text       start:0x02149f74 end:0x0214a050
+
+src/auto/func_ov013_0214a050.c:
+    complete
+    .text       start:0x0214a050 end:0x0214a10c
+
+src/auto/func_ov013_0214a10c.c:
+    complete
+    .text       start:0x0214a10c end:0x0214a278
+
+src/auto/func_ov013_0214a278.c:
+    complete
+    .text       start:0x0214a278 end:0x0214a304
+
+src/auto/func_ov013_021496b0.c:
+    complete
+    .text       start:0x021496b0 end:0x021496cc
+
+src/auto/func_ov013_021496cc.c:
+    complete
+    .text       start:0x021496cc end:0x021496fc
+
+src/auto/func_ov013_02149ba8.cpp:
+    complete
+    .text       start:0x02149ba8 end:0x02149c20
+
+src/auto/func_ov013_02149c20.c:
+    complete
+    .text       start:0x02149c20 end:0x02149cc4
