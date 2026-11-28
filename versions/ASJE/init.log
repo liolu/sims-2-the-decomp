@@ -1,0 +1,102 @@
+[INFO ] Loading ROM from extract/usa/config.yaml
+[INFO ] Function at 0x020012a8 was adjusted to include pre-code constant pool at 0x020012a4
+[INFO ] Function at 0x0201286c was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x020128f4 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x020129e0 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012a18 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012a6c was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012ac4 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012af8 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012b60 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012bc8 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012c30 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012c98 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012d00 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012d68 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012dd0 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012e38 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012ea0 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012f08 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012f70 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02012fd8 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02013040 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x020130a8 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x020130fc was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x0201314c was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x020131e4 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x0201320c was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02013258 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02013290 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02013308 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x0201333c was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02013370 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x020133d0 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02013430 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02013458 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x02013480 was adjusted to include pre-code constant pool at 0x02012840
+[INFO ] Function at 0x020139d0 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013a24 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013af0 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013b68 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013bdc was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013c10 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013cb0 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013d2c was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013dd4 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013ea0 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013f6c was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02013fe4 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014044 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020140b4 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014124 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014194 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020141f8 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014268 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020142d8 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014348 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020143ac was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014418 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014484 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020144f0 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014568 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020145bc was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014618 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014674 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020146c4 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014720 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014778 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020147d0 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x0201482c was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014888 was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x020148bc was adjusted to include pre-code constant pool at 0x020139ac
+[INFO ] Function at 0x02014958 was adjusted to include pre-code constant pool at 0x020139ac
+[WARN ] Local function call from 0x0201285c in ARM9 main to 0x02012e48 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x020d18ba in ARM9 main to 0x020d2244 goes to middle of function 'func_020d1bc8' at 0x020d1bc8, adding an external label symbol
+[WARN ] Local function call from 0x020d1920 in ARM9 main to 0x020d2244 goes to middle of function 'func_020d1bc8' at 0x020d1bc8, adding an external label symbol
+[WARN ] Local function call from 0x020d77e8 in ARM9 main to 0x020fd2d4 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x020d85b0 in ARM9 main to 0x020fd2d4 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x020d8b44 in ARM9 main to 0x020fd2d4 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x020dafd8 in ARM9 main to 0x020db6dc goes to middle of function 'func_020db6a4' at 0x020db6a4, adding an external label symbol
+[WARN ] Local function call from 0x020dc64c in ARM9 main to 0x020dc0b8 goes to middle of function 'func_020dc0b4' at 0x020dc0b4, adding an external label symbol
+[WARN ] Local function call from 0x020dc698 in ARM9 main to 0x020dc0b8 goes to middle of function 'func_020dc0b4' at 0x020dc0b4, adding an external label symbol
+[WARN ] Local function call from 0x020dc7e8 in ARM9 main to 0x020dc0b8 goes to middle of function 'func_020dc0b4' at 0x020dc0b4, adding an external label symbol
+[WARN ] Local function call from 0x020dc7f4 in ARM9 main to 0x020dc0b8 goes to middle of function 'func_020dc0b4' at 0x020dc0b4, adding an external label symbol
+[WARN ] Local function call from 0x020e1730 in ARM9 main to 0x020ea8f0 goes to middle of function 'func_020ea8e0' at 0x020ea8e0, adding an external label symbol
+[WARN ] Local function call from 0x020e321c in ARM9 main to 0x020e3270 goes to middle of function 'func_020e3258' at 0x020e3258, adding an external label symbol
+[WARN ] Local function call from 0x020e3248 in ARM9 main to 0x020e3270 goes to middle of function 'func_020e3258' at 0x020e3258, adding an external label symbol
+[WARN ] Local function call from 0x020fbaf4 in ARM9 main to 0x0210f774 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x02109860 in ARM9 main to 0x0210f780 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x02109878 in ARM9 main to 0x0210f774 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x0210d2d4 in ARM9 main to 0x0210f774 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x0210e93c in ARM9 main to 0x0210e8d0 goes to middle of function 'func_0210e8bc' at 0x0210e8bc, adding an external label symbol
+[WARN ] Local function call from 0x0210eae4 in ARM9 main to 0x0210ea64 goes to middle of function 'func_0210ea50' at 0x0210ea50, adding an external label symbol
+[WARN ] Local function call from 0x0210ec8c in ARM9 main to 0x0210ec0c goes to middle of function 'func_0210ebf8' at 0x0210ebf8, adding an external label symbol
+[WARN ] Local function call from 0x0210f7a4 in ARM9 main to 0x0210fbb0 goes to middle of function 'func_0210fba8' at 0x0210fba8, adding an external label symbol
+[INFO ] Function at 0x01ff8994 was adjusted to include pre-code constant pool at 0x01ff8990
+[INFO ] Function at 0x01ff8d14 was adjusted to include pre-code constant pool at 0x01ff8d10
+[WARN ] Local function call from 0x01ff8158 in ITCM to 0x01ff8048 goes to middle of function 'func_01ff8000' at 0x01ff8000, adding an external label symbol
+[WARN ] Local function call from 0x01ff8180 in ITCM to 0x01ff8048 goes to middle of function 'func_01ff8000' at 0x01ff8000, adding an external label symbol
+[WARN ] Local function call from 0x01ff81a0 in ITCM to 0x01ff8048 goes to middle of function 'func_01ff8000' at 0x01ff8000, adding an external label symbol
+[WARN ] Local function call from 0x01ff81a8 in ITCM to 0x01ff8048 goes to middle of function 'func_01ff8000' at 0x01ff8000, adding an external label symbol
+[WARN ] Local function call from 0x01ff8200 in ITCM to 0x01ff8048 goes to middle of function 'func_01ff8000' at 0x01ff8000, adding an external label symbol
+[WARN ] Local function call from 0x01ff8220 in ITCM to 0x01ff80dc goes to middle of function 'func_01ff8000' at 0x01ff8000, adding an external label symbol

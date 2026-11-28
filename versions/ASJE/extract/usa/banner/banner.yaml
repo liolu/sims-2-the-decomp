@@ -1,0 +1,23 @@
+version: Original
+title:
+  japanese: |-
+    The Sims™ 2
+    Electronic Arts Inc.
+  english: |-
+    The Sims™ 2
+    Electronic Arts Inc.
+  french: |-
+    Les Sims 2™
+    Electronic Arts Inc.
+  german: |-
+    Die Sims™ 2
+    Electronic Arts Inc.
+  italian: |-
+    The Sims™ 2
+    Electronic Arts Inc.
+  spanish: |-
+    Los Sims™ 2
+    Electronic Arts Inc.
+images:
+  bitmap_path: bitmap.png
+  palette_path: palette.png
