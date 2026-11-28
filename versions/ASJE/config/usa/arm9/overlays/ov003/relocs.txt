@@ -249,7 +249,7 @@ from:0x0214c53c kind:arm_call to:0x02016708 module:main
 from:0x0214c570 kind:arm_call to:0x02016708 module:main
 from:0x0214c590 kind:arm_call to:0x02049b90 module:main
 from:0x0214c5b0 kind:load to:0x0214f8b8 module:overlay(3)
-from:0x0214c5b4 kind:load to:0x0214f8d3 module:overlay(3)
+from:0x0214c5b4 kind:load to:0x0214f8b8 add:0x1b module:overlay(3)
 from:0x0214c604 kind:arm_call to:0x02046814 module:main
 from:0x0214c614 kind:arm_call to:0x020170c4 module:main
 from:0x0214c640 kind:arm_call to:0x02049a88 module:main

@@ -3,3 +3,83 @@
     .ctor       start:0x0214c4bc end:0x0214c4bc kind:rodata align:4
     .data       start:0x0214c4c0 end:0x0214c580 kind:data align:32
     .bss        start:0x0214c580 end:0x0214c580 kind:bss align:32
+
+src/data/ov017_data_0214c4c0.c:
+    complete
+    .data       start:0x0214c4c0 end:0x0214c4c4
+
+src/data/ov017_data_0214c4c4.c:
+    complete
+    .data       start:0x0214c4c4 end:0x0214c4c8
+
+src/data/ov017_data_0214c4c8.c:
+    complete
+    .data       start:0x0214c4c8 end:0x0214c4cc
+
+src/data/ov017_data_0214c4cc.c:
+    complete
+    .data       start:0x0214c4cc end:0x0214c4d0
+
+src/data/ov017_data_0214c4d0.c:
+    complete
+    .data       start:0x0214c4d0 end:0x0214c4d4
+
+src/data/ov017_data_0214c4d4.c:
+    complete
+    .data       start:0x0214c4d4 end:0x0214c4dc
+
+src/data/ov017_data_0214c4dc.c:
+    complete
+    .data       start:0x0214c4dc end:0x0214c4e4
+
+src/data/ov017_data_0214c4e4.c:
+    complete
+    .data       start:0x0214c4e4 end:0x0214c4ec
+
+src/data/ov017_data_0214c4ec.c:
+    complete
+    .data       start:0x0214c4ec end:0x0214c500
+
+src/data/ov017_data_0214c500.c:
+    complete
+    .data       start:0x0214c500 end:0x0214c518
+
+src/data/ov017_data_0214c518.c:
+    complete
+    .data       start:0x0214c518 end:0x0214c580
+
+src/data/ov017_rodata_0214c358.c:
+    complete
+    .rodata     start:0x0214c358 end:0x0214c35c
+
+src/data/ov017_rodata_0214c35c.c:
+    complete
+    .rodata     start:0x0214c35c end:0x0214c360
+
+src/data/ov017_rodata_0214c360.c:
+    complete
+    .rodata     start:0x0214c360 end:0x0214c364
+
+src/data/ov017_rodata_0214c364.c:
+    complete
+    .rodata     start:0x0214c364 end:0x0214c368
+
+src/data/ov017_rodata_0214c368.c:
+    complete
+    .rodata     start:0x0214c368 end:0x0214c36c
+
+src/data/ov017_rodata_0214c36c.c:
+    complete
+    .rodata     start:0x0214c36c end:0x0214c370
+
+src/data/ov017_rodata_0214c370.c:
+    complete
+    .rodata     start:0x0214c370 end:0x0214c374
+
+src/data/ov017_rodata_0214c374.c:
+    complete
+    .rodata     start:0x0214c374 end:0x0214c3ac
+
+src/data/ov017_rodata_0214c3ac.c:
+    complete
+    .rodata     start:0x0214c3ac end:0x0214c4bc

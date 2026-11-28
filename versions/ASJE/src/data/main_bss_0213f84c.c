@@ -1,0 +1,6 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_0213f84c[1];
+u32 data_0213f850[3];
+u32 data_0213f85c[484];

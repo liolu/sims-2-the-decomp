@@ -1,0 +1,10 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_02134f20[];
+extern u8 data_02134f44[];
+extern u8 data_02139050[];
+extern u8 data_02139060[];
+
+u32 data_02134f30[2] = {(u32) &data_02139060, (u32) &data_02134f20};
+u32 data_02134f38[3] = {(u32) &data_02139050, (u32) &data_02134f44, (u32) &data_02134f30};

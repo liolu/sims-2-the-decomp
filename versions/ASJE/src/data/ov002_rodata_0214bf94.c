@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+const u32 data_ov002_0214bf94[1] = {0x1A191B1D};
+const u32 data_ov002_0214bf98[2] = {0x00710082, 0x00710062};
