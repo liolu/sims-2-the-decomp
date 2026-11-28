@@ -9,11 +9,11 @@ From the root of All-nds-decomp-games:
 ## Progress
 
 <!-- progress:start -->
-`█░░░░░░░░░░░░░░░░░░░` **4.73%** of the code matched · data 100.00% · 313/5063 functions
+`███████░░░░░░░░░░░░░` **36.73%** of the code matched · data 100.00% · 3690/5063 functions
 
 | Part of the code | Files | Functions | Share of all code |
 |---|---|---|---|
-| Auto-matched (raw m2c output, to clean up) | 313 | 313/313 | 4.73% |
+| Auto-matched (raw m2c output, to clean up) | 3690 | 3690/3690 | 36.73% |
 | Game code: `src/data/` | 3031 | 0/0 | 0.00% |
 
 *Updated 2026-11-28 by `python tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
