@@ -1,0 +1,10 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+extern M2C_UNK data_0212fdfc;
+extern M2C_UNK data_0212fe5c;
+
+void func_020177e8(M2C_UNK **arg0) {
+    *arg0 = &data_0212fdfc;
+    *arg0 = &data_0212fe5c;
+}

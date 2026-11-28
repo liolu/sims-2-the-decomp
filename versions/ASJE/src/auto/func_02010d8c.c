@@ -1,0 +1,88 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+extern u8 data_02117cc8;
+extern u8 data_02117ca8;
+extern u8 data_0212fb88;
+extern u8 *volatile data_0213e440;
+
+void *func_0200b8a0(void *, s32);
+s32 func_020d54c8(s32);
+s32 func_020d5544(s32, void *);
+s32 func_0209b2b8(void *, s32);
+s32 func_0209b318(void *, s32, s32);
+s32 func_0209b024(s32, s32);
+
+void func_02010d8c(u8 *arg0) {
+    s32 i;
+    u8 *ent;
+    s32 sp4;
+    s32 sp8;
+    s32 one;
+    s32 sp0c;
+    s32 sp10;
+    s32 sp14;
+    s32 r6;
+    s32 r8;
+    s32 cnt;
+    s32 k;
+    s32 idx;
+    s32 ten;
+    s32 e;
+    s32 tb;
+    s32 f4;
+
+    i = 0;
+    if ((s32) arg0[0x29] <= 0) {
+        return;
+    }
+    sp4  = 0x2A0;
+    sp0c = 0;
+    sp8  = 0;
+    sp10 = 0;
+    one  = 1;
+    ten  = 0x10;
+    sp14 = -1;
+    do {
+        ent = (u8 *) func_0200b8a0(arg0 + 0x24, i);
+        if (ent[0x15] != 0) {
+            r6 = sp4;
+            switch (ent[0x15]) {
+                case 1:
+                case 0x1E:
+                    func_020d54c8(*(s32 *) (arg0 + 0x144));
+                    r8  = sp8;
+                    cnt = func_0209b2b8(data_0213e440, ten);
+                    if (cnt > 0) {
+                        k = sp0c;
+                        if (cnt > 0) {
+                            do {
+                                if (func_0209b024(func_0209b318(data_0213e440, ten, k & 0xFF),
+                                                  *(s32 *) (data_0213e440 + 0xF8) + 0x78) != 0) {
+                                    r8 = one;
+                                    break;
+                                }
+                                k++;
+                            } while (k < cnt);
+                        }
+                    }
+                    e   = ent[0x15];
+                    f4  = *(s32 *) (data_0213e440 + 0xF4);
+                    tb  = *(u8 *) (&data_02117cc8 + f4 * 2 + r8);
+                    idx = (e != 1) ? one : sp10;
+                    r6  = *(u16 *) (&data_02117ca8 + tb * 4 + idx * 2);
+                    break;
+                case 2:
+                    func_020d54c8(*(s32 *) (arg0 + 0x144));
+                    *(s32 *) (arg0 + 0x144) = sp14;
+                    break;
+                default:
+                    r6 = *(u16 *) (&data_0212fb88 + ent[0x15] * 2);
+                    break;
+            }
+            if (r6 != 0x2A0) {
+                *(s32 *) (arg0 + 0x144) = func_020d5544(r6, arg0 + 0x78);
+            }
+        }
+    } while (++i < (s32) arg0[0x29]);
+}

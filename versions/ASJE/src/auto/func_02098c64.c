@@ -1,0 +1,55 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+extern u8 data_021334c0;
+extern u8 data_021346e8;
+extern u8 data_02134714;
+
+void func_0208bb24(u8 *, s32, s32, s32);
+void *func_0208af58(s32);
+
+u8 *func_02098c64(u8 *arg0, s32 arg1, s32 arg2) {
+    s32 i;
+    u8 *src;
+    u8 tmp;
+
+    func_0208bb24(arg0, arg1, 0, 1);
+    *(u8 **) (arg0 + 0x4C) = &data_021334c0;
+    *(s32 *) (arg0 + 0x50) = arg2;
+    *(s32 *) (arg0 + 0x54) = *(s16 *) ((u8 *) func_0208af58(arg2) + 0xE);
+    *(u8 *) (arg0 + 0x58)  = 0;
+    *(u8 *) (arg0 + 0x59)  = 1;
+    *(u8 **) arg0          = &data_021346e8;
+    *(u8 **) (arg0 + 0x4C) = &data_02134714;
+
+    i = *(s32 *) (arg0 + 8);
+    if (i > *(s32 *) (arg0 + 0xC)) {
+        do {
+            src = arg0 + (i - 1);
+            tmp = src[0x10];
+            src = arg0 + i;
+            i -= 1;
+            src[0x10] = tmp;
+        } while (i > *(s32 *) (arg0 + 0xC));
+    }
+    arg0[0x10 + *(s32 *) (arg0 + 0xC)] = 0x30;
+    *(s32 *) (arg0 + 0xC) += 1;
+    *(s32 *) (arg0 + 8) += 1;
+
+    if (arg2 >= 0xB9 && arg2 <= 0xD0 && ((arg2 - 0xB9) & 1)) {
+        i = *(s32 *) (arg0 + 8);
+        if (i > *(s32 *) (arg0 + 0xC)) {
+            do {
+                src = arg0 + (i - 1);
+                tmp = src[0x10];
+                src = arg0 + i;
+                i -= 1;
+                src[0x10] = tmp;
+            } while (i > *(s32 *) (arg0 + 0xC));
+        }
+        arg0[0x10 + *(s32 *) (arg0 + 0xC)] = 0x53;
+        *(s32 *) (arg0 + 0xC) += 1;
+        *(s32 *) (arg0 + 8) += 1;
+    }
+    return arg0;
+}
