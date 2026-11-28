@@ -35,3 +35,19 @@ src/data/ov004_rodata_0214a660.c:
 src/data/ov004_rodata_0214a668.c:
     complete
     .rodata     start:0x0214a668 end:0x0214a670
+
+src/auto/func_ov004_02149a1c.c:
+    complete
+    .text       start:0x02149a1c end:0x02149a4c
+
+src/auto/func_ov004_02149a4c.c:
+    complete
+    .text       start:0x02149a4c end:0x02149b14
+
+src/auto/func_ov004_02149b14.c:
+    complete
+    .text       start:0x02149b14 end:0x02149dfc
+
+src/auto/func_ov004_02149a00.c:
+    complete
+    .text       start:0x02149a00 end:0x02149a1c

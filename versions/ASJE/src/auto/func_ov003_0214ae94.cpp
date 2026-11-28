@@ -1,0 +1,65 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+struct VA {
+    virtual void f0();
+    virtual void f1();
+};
+
+extern "C" M2C_UNK func_ov003_02149e68(void *);
+extern "C" M2C_UNK func_020bb444(void);
+extern "C" M2C_UNK func_020105d0(s32);
+extern "C" s32 func_02048064(void *, s32);
+extern "C" M2C_UNK func_020bc930(void *, s32, s32);
+extern "C" M2C_UNK func_020d4f50(void);
+extern "C" s32 data_027e0000;
+extern "C" u8 data_027e0014[];
+extern "C" u8 data_02139e74[];
+extern "C" void *data_02139e64;
+extern "C" void *data_0213f84c;
+
+extern "C" void func_ov003_0214ae94(void *arg0) {
+    void *temp_r0;
+    s32 var_r6;
+    s32 var_r5;
+    s32 temp_r0_2;
+
+    func_ov003_02149e68(arg0);
+    if (data_027e0000 == 0) {
+        data_027e0000 = 1;
+    } else {
+        data_027e0000 = 0;
+    }
+    *(s32 *) ((u8 *) data_02139e74 + 0x268) = *(s32 *) ((u8 *) data_02139e74 + 0x264);
+    *(s32 *) ((u8 *) data_02139e74 + 0x264) = 3;
+    func_020bb444();
+    temp_r0 = *(void **) ((u8 *) arg0 + 0x44);
+    if (temp_r0 != NULL) {
+        if (temp_r0 != NULL) {
+            ((VA *) temp_r0)->f1();
+        }
+        *(void **) ((u8 *) arg0 + 0x44) = NULL;
+    }
+    var_r6 = 0;
+    var_r5 = 0;
+    do {
+        temp_r0 = ((void **) ((u8 *) arg0 + 0x48))[var_r6];
+        if (temp_r0 != NULL) {
+            if (temp_r0 != NULL) {
+                ((VA *) temp_r0)->f1();
+            }
+            ((void **) ((u8 *) arg0 + 0x48))[var_r6] = (void *) var_r5;
+        }
+        var_r6 += 1;
+    } while (var_r6 < 2);
+    func_020105d0((data_027e0000 * 0x34) + (s32) (&data_027e0014[0]));
+    temp_r0_2 = func_02048064(data_02139e64, data_027e0000);
+    if (temp_r0_2 == 0x18) {
+        func_020bc930(data_0213f84c, 4, 0);
+    }
+    if (data_027e0000 == 0) {
+        data_027e0000 = 1;
+    } else {
+        data_027e0000 = 0;
+    }
+    func_020d4f50();
+}

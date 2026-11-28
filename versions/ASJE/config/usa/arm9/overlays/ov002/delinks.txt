@@ -119,3 +119,23 @@ src/data/ov002_rodata_0214bfb8.c:
 src/data/ov002_rodata_0214bfba.c:
     complete
     .rodata     start:0x0214bfba end:0x0214bfbc
+
+src/auto/func_ov002_02149a1c.c:
+    complete
+    .text       start:0x02149a1c end:0x02149a4c
+
+src/auto/func_ov002_02149a4c.c:
+    complete
+    .text       start:0x02149a4c end:0x02149aa0
+
+src/auto/func_ov002_0214a768.c:
+    complete
+    .text       start:0x0214a768 end:0x0214acbc
+
+src/auto/func_ov002_0214b1fc.c:
+    complete
+    .text       start:0x0214b1fc end:0x0214b5b8
+
+src/auto/func_ov002_02149a00.c:
+    complete
+    .text       start:0x02149a00 end:0x02149a1c
