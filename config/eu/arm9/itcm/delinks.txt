@@ -181,6 +181,10 @@ src/auto/func_01ffe084.c:
     complete
     .text       start:0x01ffe084 end:0x01ffe0e4
 
+src/auto/func_01ffda98.c:
+    complete
+    .text       start:0x01ffda98 end:0x01ffdc24
+
 src/auto/func_01ff96c8.c:
     complete
     .text       start:0x01ff96c8 end:0x01ff9860
@@ -193,6 +197,6 @@ src/auto/func_01ffb700.c:
     complete
     .text       start:0x01ffb700 end:0x01ffb8d0
 
-src/auto/func_01ffda98.c:
+src/auto/func_01ffc22c.c:
     complete
-    .text       start:0x01ffda98 end:0x01ffdc24
+    .text       start:0x01ffc22c end:0x01ffc270

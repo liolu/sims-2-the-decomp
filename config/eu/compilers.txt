@@ -3215,6 +3215,48 @@ src/auto/func_02010d8c.c 1.2/sp2p3
 src/auto/func_0204a2c8.c 1.2/sp2p3
 src/auto/func_0204a478.c 1.2/sp2p3
 src/auto/func_0204a818.c 1.2/sp2p3
+src/auto/func_0203655c.c 1.2/sp2p3
+src/auto/func_020a39a4.c 1.2/sp2p3
+src/auto/func_0204ed50.c 1.2/sp2p3
+src/auto/func_02052720.c 1.2/sp2p3
+src/auto/func_02041720.c 1.2/sp2p3
+src/auto/func_020491bc.c 1.2/sp2p3
+src/auto/func_02056124.cpp 1.2/sp2p3
+src/auto/func_020b9348.c 1.2/sp2p3
+src/auto/func_0207bf4c.c 1.2/sp2p3
+src/auto/func_02040a94.c 1.2/sp2p3
+src/auto/func_020d6f28.c 1.2/sp2p3
+src/auto/func_02037ea8.c 1.2/sp2p3
+src/auto/func_02016468.c 1.2/sp2p3
+src/auto/func_02029d28.c 1.2/sp2p3
+src/auto/func_0203e9e8.c 1.2/sp2p3
+src/auto/func_0203cdd4.c 1.2/sp2p3
+src/auto/func_02040c1c.cpp 1.2/sp2p3
+src/auto/func_020ba100.cpp 1.2/sp2p3
+src/auto/func_0208475c.cpp 1.2/sp2p3 -pragma "opt_common_subs off"
+src/auto/func_020a4528.c 1.2/sp2p3
+src/auto/func_0203cc08.c 1.2/sp2p3
+src/auto/func_02062bf0.c 1.2/sp2p3
+src/auto/func_0206be9c.cpp 1.2/sp2p3
+src/auto/func_020a4388.c 1.2/sp2p3
+src/auto/func_020577e4.c 1.2/sp2p3
+src/auto/func_02061aac.c 1.2/sp2p3
+src/auto/func_020872e4.cpp 1.2/sp2p3
+src/auto/func_02092b4c.c 1.2/sp2p3
+src/auto/func_020d5268.c 1.2/sp2p3
+src/auto/func_0204b594.cpp 1.2/sp2p3
+src/auto/func_0204d44c.c 1.2/sp2p3
+src/auto/func_02061358.c 1.2/sp2p3
+src/auto/func_02069550.cpp 1.2/sp2p3
+src/auto/func_020bed68.c 1.2/sp2p3
+src/auto/func_020d7028.c 1.2/sp2p3 -pragma "opt_strength_reduction off"
+src/auto/func_020824a4.cpp 1.2/sp2p3
+src/auto/func_0205718c.cpp 1.2/sp2p3
+src/auto/func_01ffc22c.c 1.2/sp2p3
+src/auto/func_020db1a4.c 1.2/sp2p3 -nointerworking
+src/auto/func_02014eac.cpp 1.2/sp2p3
+src/auto/func_020c4798.cpp 1.2/sp2p3
+src/auto/func_020d8828.c 1.2/sp2p3 -pragma "opt_strength_reduction off"
 src/auto/func_0204e814.c 1.2/sp2p3
 src/auto/func_0204e938.c 1.2/sp2p3
 src/auto/func_0204ea5c.c 1.2/sp2p3
@@ -3223,17 +3265,37 @@ src/auto/func_02051424.c 1.2/sp2p3
 src/auto/func_0205522c.c 1.2/sp2p3
 src/auto/func_020563cc.cpp 1.2/sp2p3
 src/auto/func_020578e4.c 1.2/sp2p3
-src/auto/func_0206be9c.cpp 1.2/sp2p3
 src/auto/func_02075b54.c 1.2/sp2p3
 src/auto/func_02083e18.c 1.2/sp2p3
 src/auto/func_020852f8.cpp 1.2/sp2p3
 src/auto/func_0208e9d4.cpp 1.2/sp2p3
-src/auto/func_020a39a4.c 1.2/sp2p3
-src/auto/func_020a4528.c 1.2/sp2p3
-src/auto/func_020bed68.c 1.2/sp2p3
 src/auto/func_020c86c4.c 1.2/sp2p3
 src/auto/func_020d25f8.c 1.2/sp2p3 -thumb
 src/auto/func_020d423c.c 1.2/sp2p3
-src/auto/func_020d5268.c 1.2/sp2p3
 src/auto/func_020d9c08.c 1.2/sp2p3
 src/auto/func_020dc120.c 1.2/sp2p3 -nointerworking
+src/auto/func_02011cdc.cpp 1.2/sp2p3
+src/auto/func_02064058.c 1.2/sp2p3 -pragma "opt_propagation off"
+src/auto/func_020759e4.c 1.2/sp2p3
+src/auto/func_020be1f8.cpp 1.2/sp2p3
+src/auto/func_020d809c.c 1.2/sp2p3
+src/auto/func_0206279c.c 1.2/sp2p3
+src/auto/func_020b7890.c 1.2/sp2p3
+src/auto/func_02061978.c 1.2/sp2p3
+src/auto/func_02062d78.c 1.2/sp2p3
+src/auto/func_02015578.c 1.2/sp2p3
+src/auto/func_0204505c.c 1.2/sp2p3
+src/auto/func_02062fa4.c 1.2/sp2p3
+src/auto/func_ov010_0214fd38.c 1.2/sp2p3
+src/auto/func_02008b64.cpp 1.2/sp2p3
+src/auto/func_0206ffbc.cpp 1.2/sp2p3
+src/auto/func_020834b0.cpp 1.2/sp2p3
+src/auto/func_02050630.c 1.2/sp2p3
+src/auto/func_02078420.c 1.2/sp2p3
+src/auto/func_02082008.c 1.2/sp2p3
+src/auto/func_0201c78c.cpp 1.2/sp2p3
+src/auto/func_0203cab0.c 1.2/sp2p3
+src/auto/func_020499a8.c 1.2/sp2p3
+src/auto/func_02087b84.cpp 1.2/sp2p3
+src/auto/func_020da048.cpp 1.2/sp2p3
+src/auto/func_02048a1c.cpp 1.2/sp2p3
